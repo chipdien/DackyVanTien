@@ -1,0 +1,4 @@
+TYPE=TRIGGERS
+triggers='CREATE DEFINER=`root`@`%` TRIGGER `guildskill_insert_check` BEFORE INSERT ON `guildskill` FOR EACH ROW SET NEW.finishtime = \'1900-01-01 00:00:00\'' 'CREATE DEFINER=`root`@`%` TRIGGER `guildskill_update_check` BEFORE UPDATE ON `guildskill` FOR EACH ROW BEGIN\n\nIF NEW.status = 2 THEN\nSET NEW.finishtime = NOW();\nEND IF;\n\nIF NEW.status = 1 THEN\n   IF NEW.skillid IN (14002,  14003, 14004, 12032, 14021) THEN SET NEW.finishtime = DATE_ADD(NOW(), INTERVAL 3 DAY); END IF;	\n   IF NEW.skillid IN (4810,  4811, 4812, 4813, 4814) THEN SET NEW.finishtime = DATE_ADD(NOW(), INTERVAL 1 DAY); END IF;\n   IF NEW.skillid IN (4815,  4816, 4817, 4818, 4819) THEN SET NEW.finishtime = DATE_ADD(NOW(), INTERVAL 2 DAY); END IF;\n   IF NEW.skillid IN (4821,  4822, 4823) THEN SET NEW.finishtime = DATE_ADD(NOW(), INTERVAL 12 HOUR); END IF;\nEND IF;\n\nEND'
+sql_modes=0 0
+definers='root@%' 'root@%'
