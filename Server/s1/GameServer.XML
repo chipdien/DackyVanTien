@@ -1,0 +1,1377 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameServer</name>
+    </assembly>
+    <members>
+        <member name="T:FengShenServer.Game.FriendTable">
+            <summary>
+            好友功能模块
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.Singleton`1">
+            <summary>
+            单键类
+            </summary>
+            <typeparam name="T">类型</typeparam>
+        </member>
+        <member name="F:FengShenServer.Game.Singleton`1.Instance">
+            <summary>
+            单键
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.LoadFriendList(System.Int32,System.Collections.Generic.List{FengShenServer.Game.UserItem})">
+            <summary>
+            加载好友列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uilist">好友列表</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.LoadFriendList(System.Int32)">
+            <summary>
+            加载好友列表
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.LoadUserList(System.Int32)">
+            <summary>
+            加载用户列表
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.LoadUserList(System.Int32,System.Boolean)">
+            <summary>
+            加载用户列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="notify">是否通知</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.DisposeUserList(System.Int32)">
+            <summary>
+            处置用户列表
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.GetUserFriendList(System.Int32)">
+            <summary>
+            获得好友列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>好友列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.GetUserBlackList(System.Int32)">
+            <summary>
+            获得黑名单列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>黑名单列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.GetUserNotifyList(System.Int32)">
+            <summary>
+            得到用户通知列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>通知列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.SubscribeNotifyList(System.Int32)">
+            <summary>
+            订阅用户通知
+            </summary>
+            <param name="userid">用户编号</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.NotifyFriends(System.Int32,FengShenServer.Game.NotifyStatus)">
+            <summary>
+            通知好友
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="status">通知状态</param>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.AddFriend(System.Int32,System.Int32)">
+            <summary>
+            添加好友
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">好友ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.AddBlack(System.Int32,System.Int32)">
+            <summary>
+            添加黑名单
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">屏蔽用户ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.RemoveFriend(System.Int32,System.Int32)">
+            <summary>
+            移除好友
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">好友ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.RemoveBlack(System.Int32,System.Int32)">
+            <summary>
+            移除黑名单
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">屏蔽ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.IsBlack(System.Int32,System.Int32)">
+            <summary>
+            是否屏蔽
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">屏蔽ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.IsFriend(System.Int32,System.Int32)">
+            <summary>
+            是否好友
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uid">好友ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.FriendTable.IsBlack(System.String,FengShenServer.PlayerInfo)">
+            <summary>
+            是否屏蔽
+            </summary>
+            <param name="nick">屏蔽昵称</param>
+            <param name="self">自己</param>
+            <returns></returns>
+        </member>
+        <member name="T:FengShenServer.Game.FightSituation">
+            <summary>
+            战斗场景
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.BattleEffect">
+            <summary>
+            战斗效果
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.EffectLogic">
+            <summary>
+            效果逻辑
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.Gadget">
+            <summary>
+            小组件
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.Gadget.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.Gadget.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.Gadget.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.IEffectLogic">
+            <summary>
+            效果逻辑接口
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectLogic.Taken">
+            <summary>
+            生效
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectLogic.Init">
+            <summary>
+            初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectLogic.Dispel">
+            <summary>
+            效果消失
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FengShenServer.Game.EffectLogic.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.EffectLogic.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.EffectLogic.Desc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.BattleEffect.IsChangeable">
+            <summary>
+            是否可换人
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.BattleEffect.IsCastable">
+            <summary>
+            是否可施法
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.BattleEffect.IsAttackable">
+            <summary>
+            是否可攻击
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.BattleEffect.Duration">
+            <summary>
+            剩余持续回合数
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.BattleEffect.Class">
+            <summary>
+            效果分类
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.FightContext">
+            <summary>
+            战斗上下文
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.FightContext.CreateContext">
+            <summary>
+            创建新的上下文
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.FightContext.SetEffectData(System.Int32,System.Int32)">
+            <summary>
+            记录效果数据
+            </summary>
+            <param name="effectId">效果ID</param>
+            <param name="data">效果数据</param>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.Hurter">
+            <summary>
+            伤害制造方
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.Sufferer">
+            <summary>
+            伤害承受方
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.Situation">
+            <summary>
+            战斗场景
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.IsCityBattle">
+            <summary>
+            是否攻城战
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.FightLog">
+            <summary>
+            战斗记录
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.FightContext.Current">
+            <summary>
+            当前战斗上下文
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.EffectClass">
+            <summary>
+            效果分类
+            </summary>
+        </member>
+        <member name="M:FengShenServer.FengShenNetwork.OnRequestBuZhouMountain(System.Int32,System.Int32,FengShenServer.PtArmyGeneralLeadList,FengShenServer.PtTimeSpend,System.Boolean,System.Int32,System.Int16)">
+            <summary>
+            探索不周山
+            </summary>
+            <param name="cityID"></param>
+            <param name="mountainID"></param>
+            <param name="ptGeneralLeadList"></param>
+            <param name="encampmentTimeSpend"></param>
+            <param name="speedUp"></param>
+            <param name="sessionID"></param>
+        </member>
+        <member name="M:FengShenServer.EmperorInfo.GetLeagueOnlineUserCnt">
+            <summary>
+            得到君主所在联盟的Buff倍率
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="M:FengShenServer.EmperorInfo.GetEmperorLeagueBuffRate">
+            <summary>
+            获取君主所在联盟的BUFF倍率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FengShenServer.Game.BattleEffectType">
+            <summary>
+            战斗效果类型
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.ReportTable">
+            <summary>
+            报告模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.DisposeUserReports(System.Int32)">
+            <summary>
+            处置用户报告
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.LoadUserReports(System.Int32,System.Collections.Generic.List{FengShenServer.Game.Report})">
+            <summary>
+            装载用户报告
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="list">报告列表</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.LoadUserReports(System.Int32)">
+            <summary>
+            装载用户报告
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.LoadUserReports(FengShenServer.PlayerInfo)">
+            <summary>
+            装载用户报告
+            </summary>
+            <param name="player">玩家</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.AddReport(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            添加报告
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="category">目录</param>
+            <param name="title">标题</param>
+            <param name="start">出发地</param>
+            <param name="startPos">出发地坐标</param>
+            <param name="occur">发生地</param>
+            <param name="occurPos">发生地坐标</param>
+            <param name="content">内容</param>
+            <param name="opponentUserId">相关用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.AddReport(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Byte[])">
+            <summary>
+            添加报告
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="category">目录</param>
+            <param name="title">标题</param>
+            <param name="start">出发地</param>
+            <param name="startPos">出发地坐标</param>
+            <param name="occur">发生地</param>
+            <param name="occurPos">发生地坐标</param>
+            <param name="content">内容</param>
+        </member>
+        <member name="M:FengShenServer.Game.ReportTable.ClearReport">
+            <summary>
+            清空报告
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.IEffectOperation`1">
+            <summary>
+            效果操作接口
+            </summary>
+            <typeparam name="T">类型</typeparam>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.CheckAnyEffect(FengShenServer.Game.Func{System.Boolean,`0})">
+            <summary>
+            检查任意效果
+            </summary>
+            <param name="d">检查委托</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.CheckAllEffect(FengShenServer.Game.Func{System.Boolean,`0})">
+            <summary>
+            检查所有效果
+            </summary>
+            <param name="d">检查委托</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.GetEffect(System.Int32)">
+            <summary>
+            得到一个效果
+            </summary>
+            <param name="effectId">效果ID</param>
+            <returns>效果</returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.GetEffects">
+            <summary>
+            得到所有效果
+            </summary>
+            <returns>效果列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.GetEffects``1(System.Type)">
+            <summary>
+            得到特定类型效果
+            </summary>
+            <typeparam name="V">效果类型</typeparam>
+            <param name="effectType">效果类型</param>
+            <returns>特定效果列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.TakeEffect(`0)">
+            <summary>
+            使一个效果生效
+            </summary>
+            <param name="effect">效果</param>
+        </member>
+        <member name="M:FengShenServer.Game.IEffectOperation`1.ClearAllEffects">
+            <summary>
+            清除所有效果
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.LACounter">
+            <summary>
+            最近访问计数器
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.LACounter.Recycle">
+            <summary>
+            回收
+            </summary>
+        </member>
+        <member name="P:FengShenServer.Game.LACounter.Item(System.String)">
+            <summary>
+            得到访问时间
+            </summary>
+            <param name="key">键</param>
+            <returns>访问时间</returns>
+        </member>
+        <member name="T:FengShenServer.Game.GuildTable">
+            <summary>
+            公会功能模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.LoadAllGuild">
+            <summary>
+            装载所有公会
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetGuild(System.Int32)">
+            <summary>
+            获得一个公会
+            </summary>
+            <param name="guildid">公会ID</param>
+            <returns>公会</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetGuild(System.String)">
+            <summary>
+            获得一个公会
+            </summary>
+            <param name="name">公会名</param>
+            <returns>公会</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Check(System.Int32,System.Int32)">
+            <summary>
+            检查公会成员权限
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="right">权限</param>
+            <returns>true-有此权限, false-无此权限</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.LoadUserGuild(FengShenServer.PlayerInfo)">
+            <summary>
+            加载用户公会
+            </summary>
+            <param name="player">用户</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.DisposeUserGuild(System.Int32)">
+            <summary>
+            处置用户公会
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.HasGuild(System.Int32)">
+            <summary>
+            检查是否有公会
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>true-有, false-无</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Create(System.Int32,System.String,System.Int32)">
+            <summary>
+            创建公会
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="name">公会名</param>
+            <param name="faction">阵营</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ChangeFaction(System.Int32,System.Int32)">
+            <summary>
+            更改阵营
+            </summary>
+            <param name="guildid">公会ID</param>
+            <param name="faction">阵营</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetUserGuild(System.Int32)">
+            <summary>
+            获得用户公会
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>公会</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetUserGuildLog(System.Int32)">
+            <summary>
+            获得公会日志
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>公会日志列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Invite(System.Int32,System.Int32)">
+            <summary>
+            邀请加入公会
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">被邀请人ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetInviteList(System.Int32)">
+            <summary>
+            得到用户公会的邀请列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>邀请列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetUserInviteList(System.Int32)">
+            <summary>
+            得到该用户的邀请列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>邀请列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Cancel(System.Int32,System.Int32)">
+            <summary>
+            取消邀请
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">被邀请人ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.InviteAccept(System.Int32,System.Int32)">
+            <summary>
+            接受邀请
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="guildid">公会ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.InviteReject(System.Int32,System.Int32)">
+            <summary>
+            拒绝邀请
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="guildid">公会ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetAuditList(System.Int32)">
+            <summary>
+            得到审核列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>审核列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Apply(System.Int32,System.Int32)">
+            <summary>
+            申请审核
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="guildid">公会ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Accept(System.Int32,System.Int32)">
+            <summary>
+            通过审核
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">被审核人ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Reject(System.Int32,System.Int32)">
+            <summary>
+            审核拒绝
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">被审核人ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetMemberList(System.Int32)">
+            <summary>
+            得到成员列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>成员列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetMemberListByGuildID(System.Int32)">
+            <summary>
+            得到成员列表
+            </summary>
+            <param name="guildid">联盟ID</param>
+            <returns>成员列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetOnlineUser(System.Int32)">
+            <summary>
+            得到在线成员列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>在线成员列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ChangeLevel(System.Int32,System.Int32,GuildProtocolServer.GuildLevel)">
+            <summary>
+            修改公会成员等级
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">目标ID</param>
+            <param name="level">等级</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GiveChairman(System.Int32,System.Int32)">
+            <summary>
+            会长转让
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="targetid">目标ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Revoke(System.Int32)">
+            <summary>
+            撤销公会成员职务
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ClearArmy(System.Int32)">
+            <summary>
+            清空军队
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ClearArmy2(System.Int32)">
+            <summary>
+            清空军队2
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Quit(System.Int32)">
+            <summary>
+            退出公会
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.Fire(System.Int32,System.Int32)">
+            <summary>
+            开除
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="opid">操作人ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ModifyInfo(System.Int32,System.String,System.String,System.String)">
+            <summary>
+            修改公会信息
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="name">公会名</param>
+            <param name="brief">公会简介</param>
+            <param name="bulletin">公会公告</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.WorldBroadcast(System.String)">
+            <summary>
+            世界广播
+            </summary>
+            <param name="content">广播内容</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.IsFriend(System.Int32,System.Int32)">
+            <summary>
+            是否友好
+            </summary>
+            <param name="userid1">用户ID1</param>
+            <param name="userid2">用户ID2</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.IsEnemy(System.Int32,System.Int32)">
+            <summary>
+            是否敌对
+            </summary>
+            <param name="userid1">用户ID1</param>
+            <param name="userid2">用户ID2</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.AddRelation(System.Int32,System.String,GuildProtocolServer.GuildDiplomatismType)">
+            <summary>
+            新增外交关系
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="guildname">公会名</param>
+            <param name="dtype">关系</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.RemoveRelation(System.Int32,System.String,GuildProtocolServer.GuildDiplomatismType)">
+            <summary>
+            移除外交关系
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="guildname">公会名</param>
+            <param name="dtype">关系</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.AddGuildHRLog(System.Int32,System.String)">
+            <summary>
+            添加公会人事日志
+            </summary>
+            <param name="guildid">公会ID</param>
+            <param name="log">日志</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.AdjustList``1(System.Collections.Generic.List{``0},FengShenServer.Game.Func{System.DateTime,``0},System.Action{``0})">
+            <summary>
+            调整列表
+            </summary>
+            <typeparam name="T">元素类型</typeparam>
+            <param name="list">列表</param>
+            <param name="p">计算元素时间委托</param>
+            <param name="a">移除委托</param>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.ReduceContributeValue(FengShenServer.PlayerInfo,System.Int64,System.Int64)">
+            <summary>
+            Reduce player contribute value
+            </summary>
+            <param name="player"></param>
+            <param name="playerContributeValue"></param>
+            <param name="reduceValue"></param>
+            <returns>reduce result</returns>
+        </member>
+        <member name="M:FengShenServer.Game.GuildTable.GetMember(System.Int32)">
+            <summary>
+            得到成员
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>成员</returns>
+        </member>
+        <member name="T:FengShenServer.Game.Merchant">
+            <summary>
+            市场模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.LoadMerchant">
+            <summary>
+            装载市场
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetMerchantCount(System.Int32,System.Int32)">
+            <summary>
+            得到商队数量
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <returns>商队数</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetAvailableMerchant(System.Int32,System.Int32)">
+            <summary>
+            得到空闲商队数
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <returns>空闲商队数</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.AddDeal(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            添加贸易订单
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="resource">资源</param>
+            <param name="amount">数量</param>
+            <param name="price">价格</param>
+            <param name="maxdealseconds">最大交易时间(秒)</param>
+            <param name="guilddeal">是否公会交易</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.Cancel(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            取消订单
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="dealid">订单ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetSeconds(FengShenServer.PlayerCityInfo,FengShenServer.PlayerCityInfo)">
+            <summary>
+            获得运送时间
+            </summary>
+            <param name="src">源城市</param>
+            <param name="dest">目标城市</param>
+            <returns>运送总时间</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.DealIt(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            交易
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="dealid">订单ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.Buy(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            购买
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="foodAmount">粮食数量</param>
+            <param name="woodAmount">木材数量</param>
+            <param name="stoneAmount">石材数量</param>
+            <param name="metalAmount">铜矿数量</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.Sell(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            出售
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="foodAmount">粮食数量</param>
+            <param name="woodAmount">木材数量</param>
+            <param name="stoneAmount">石材数量</param>
+            <param name="metalAmount">铜矿数量</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetMyDeal(System.Int32,System.Int32)">
+            <summary>
+            得到当前城市的交易队列
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetDealList(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            获得交易列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <param name="resource">资源</param>
+            <param name="page">页</param>
+            <param name="name">名字</param>
+            <param name="guilddeal">是否公会交易</param>
+            <param name="Size">每页显示数</param>
+            <param name="maxpage">最大页数</param>
+            <returns>交易列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.GetMyDealCount(System.Int32,System.Int32)">
+            <summary>
+            得到当前城市交易数
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="cityid">城市ID</param>
+            <returns>交易数量</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Merchant.Accelerate(System.Int32,System.Int32)">
+            <summary>
+            加速运送
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="dealid">订单ID</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="T:FengShenServer.Game.Mail">
+            <summary>
+            邮件模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadMail(System.Int32,System.Collections.Generic.List{FengShenServer.Game.Letter})">
+            <summary>
+            装载用户邮件
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="l">邮件列表</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadMail(System.Int32)">
+            <summary>
+            装载用户邮件
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadSendMail(System.Int32,System.Collections.Generic.List{FengShenServer.Game.PartialLetter})">
+            <summary>
+            装载发件箱
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="pl">发件列表</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadSendMail(System.Int32)">
+            <summary>
+            装载发件箱
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadMail(FengShenServer.PlayerInfo)">
+            <summary>
+            装载邮件
+            </summary>
+            <param name="player">用户</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.LoadSendMail(FengShenServer.PlayerInfo)">
+            <summary>
+            装载发件箱
+            </summary>
+            <param name="player">用户</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.DisposeUserMail(System.Int32)">
+            <summary>
+            处置用户邮件
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Notify(System.Int32)">
+            <summary>
+            新邮件通知
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Send(FengShenServer.Game.Letter[],System.Boolean)">
+            <summary>
+            发件
+            </summary>
+            <param name="letters">邮件列表</param>
+            <param name="isGuild">是否公会发送</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Send(FengShenServer.Game.Letter)">
+            <summary>
+            发件
+            </summary>
+            <param name="letter">邮件</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Send(FengShenServer.Game.Letter,System.Boolean)">
+            <summary>
+            发件
+            </summary>
+            <param name="letter">邮件</param>
+            <param name="isGuild">是否公会发送</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.GetSystemLetter(System.Int32)">
+            <summary>
+            得到系统邮件
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.GetLetters(System.Int32,System.Int32)">
+            <summary>
+            得到邮件列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="type">类型</param>
+            <returns>邮件列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Read(System.Int32,System.Int32,FengShenServer.Game.Mail.MailBoxType)">
+            <summary>
+            读取邮件
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="letterid">邮件ID</param>
+            <param name="type">邮箱类型</param>
+            <returns>邮件</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Delete(System.Int32,System.Int32[],System.Int32)">
+            <summary>
+            删除邮件
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="letterids">邮件ID表</param>
+            <param name="type">类型</param>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.Delete(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            删除邮件
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="letterid">邮件ID</param>
+            <param name="type">类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.Mail.SendMail(FengShenServer.EmperorInfo,FengShenServer.EmperorInfo,System.String,System.String)">
+            <summary>
+            发送邮件
+            </summary>
+            <param name="sender">发件人</param>
+            <param name="receiver">收件人</param>
+            <param name="title">标题</param>
+            <param name="content">内容</param>
+        </member>
+        <member name="T:FengShenServer.Game.InvokingCheck">
+            <summary>
+            调用检查
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.InvokingCheck.Check(System.Reflection.MethodInfo,System.Object[])">
+            <summary>
+            检查调用频度
+            </summary>
+            <param name="method">被检查的方法</param>
+            <param name="args">参数</param>
+            <returns>true-适度, false-过频</returns>
+        </member>
+        <member name="T:FengShenServer.Game.Listening">
+            <summary>
+            对话模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Listening.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Listening.Talk(FengShenServer.PlayerInfo,System.Int32,FengShenServer.Game.Listening.TalkType)">
+            <summary>
+            对话
+            </summary>
+            <param name="player">玩家</param>
+            <param name="celestialCavernId">仙境编号</param>
+            <param name="type">对话类型</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.GeneralInfo.AddBuff(FengShenServer.EnumBuffType,System.Int32)">
+            <summary>
+            为Emperor添加一种 buff 效果
+            </summary>
+            <param name="_eBuffType">buff 种类</param>
+            <param name="_iBuffValue">buff 数值</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.GeneralInfo.GetBuffValueByKey(FengShenServer.EnumBuffType)">
+            <summary>
+            通过对应的buff名字作为key,查找对应的buff数值
+            </summary>
+            <param name="_eKey">buff种类</param>
+            <returns>如果存在返回该buff种类的具体数值，否则返回0</returns>
+        </member>
+        <member name="M:FengShenServer.GeneralInfo.GetEmperorLeagueBuffRate">
+            <summary>
+            获取联盟倍率，没有则返回0
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:FengShenServer.DirtyWordsManager._invaild">
+            <summary>
+            标志本类是否可用
+            </summary>
+        </member>
+        <member name="F:FengShenServer.DirtyWordsManager._instance">
+            <summary>
+            singleton
+            </summary>
+        </member>
+        <member name="F:FengShenServer.DirtyWordsManager._dirtyWordsList">
+            <summary>
+            缓存脏字对象
+            </summary>
+        </member>
+        <member name="M:FengShenServer.DirtyWordsManager.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:FengShenServer.DirtyWordsManager.LoadXml(System.String,System.String)">
+            <summary>
+            加载配置文件，获取脏字集。
+            </summary>
+            <param name="xmlFile">配置文件路径名</param>
+        </member>
+        <member name="M:FengShenServer.DirtyWordsManager.CheckDirtyWord(System.String)">
+            <summary>
+            检查字符串中是否有脏字
+            </summary>
+            <param name="data">要检查的字符串</param>
+            <returns>返回值 true有脏字，false没有脏字</returns>
+        </member>
+        <member name="M:FengShenServer.DirtyWordsManager.CheckDirtyWord2(System.String)">
+            <summary>
+            检查字符串中是否有脏字
+            </summary>
+            <param name="data">要检查的字符串</param>
+            <returns>返回值 true有脏字，false没有脏字</returns>
+        </member>
+        <member name="M:FengShenServer.Game.SlotMachine.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.SlotMachine.Check(FengShenServer.PlayerInfo,System.Int32)">
+            <summary>
+            检查是否可爻奖
+            </summary>
+            <param name="p">玩家</param>
+            <param name="type">类型</param>
+            <returns>错误码</returns>
+        </member>
+        <member name="M:FengShenServer.Game.SlotMachine.Play(FengShenServer.PlayerInfo,System.Int32)">
+            <summary>
+            爻奖
+            </summary>
+            <param name="p">玩家</param>
+            <param name="type">类型</param>
+        </member>
+        <member name="M:FengShenServer.TheurgyManager.ResourceAdd(System.Int32)">
+            <summary>
+            据点Buff，资源加成
+            </summary>
+            <param name="pointNum">据点个数</param>
+            <returns></returns>
+        </member>
+        <member name="T:FengShenServer.Game.QuestTable">
+            <summary>
+            任务模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.Init">
+            <summary>
+            任务初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.LoadUserQuests(System.Int32,System.Collections.Generic.List{FengShenServer.Game.UserQuest})">
+            <summary>
+            装载用户任务数据
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="uq">用户任务数据列表</param>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.LoadUserQuests(System.Int32)">
+            <summary>
+            装载用户任务数据
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.LoadUserQuests(FengShenServer.PlayerInfo)">
+            <summary>
+            装载用户任务数据
+            </summary>
+            <param name="player">玩家</param>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.DisposeUserQuests(System.Int32)">
+            <summary>
+            处置用户任务数据
+            </summary>
+            <param name="userid">用户ID</param>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.UpdateRepeatQuest">
+            <summary>
+            更新时间周期性任务，例如：每周的伏羲外挂任务，本函数的作用是根据间隔时间确定下次激活任务的条件,每天凌晨激活此函数
+            </summary>
+            
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.GetLootableList(System.Int32)">
+            <summary>
+            得到任务相关掉落列表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>掉落表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.GetTalkableList(System.Int32)">
+            <summary>
+            得到任务相关对话表
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>对话表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.IsFinished(System.Int32,FengShenServer.Game.Quest,System.Collections.Generic.List{FengShenServer.Game.VaryParameters{System.Boolean,System.Double}})">
+            <summary>
+            任务是否完成
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="q">任务</param>
+            <param name="hints">提示表</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.GetAvailiableQuests(System.Int32,QuestProtocolServer.EnumQuestType)">
+            <summary>
+            得到可接受任务
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="type">任务类型</param>
+            <returns>可接受任务列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.FinishQuest(System.Int32,System.Int32,System.Int16)">
+            <summary>
+            完成任务
+            </summary>
+            <param name="userid">用户ID</param>
+            <param name="questid">任务ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:FengShenServer.Game.QuestTable.UpdateQuest">
+            <summary>
+            从数据库更新任务
+            </summary>
+            <param name="questid">任务ID</param>
+            <returns>错误信息</returns>
+            <param name="dbAccessItem"></param>
+        </member>
+        <member name="T:FengShenServer.Game.BFLoader">
+            <summary>
+            战地加载器
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.BFLoader.GetBattleField(System.Int32,System.Object,System.Int32,System.Object)">
+            <summary>
+            加载并初始化一个战地
+            </summary>
+            <param name="aid">进攻方ID</param>
+            <param name="a">进攻方</param>
+            <param name="did">防守方ID</param>
+            <param name="d">防守方</param>
+            <returns>战地</returns>
+        </member>
+        <member name="T:FengShenServer.Game.EffectLibrary">
+            <summary>
+            效果库
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.EffectLibrary.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.EffectLibrary.GetEffect(System.Int32)">
+            <summary>
+            获得指定效果
+            </summary>
+            <param name="effectId">效果编号</param>
+            <returns>效果</returns>
+        </member>
+        <member name="T:FengShenServer.Game.BattleArray">
+            <summary>
+            战斗阵列
+            </summary>
+        </member>
+        <member name="T:FengShenServer.Game.BattleFields">
+            <summary>
+            战地容器
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.BattleFields.AddField(System.String,FengShenServer.Game.IBattleField)">
+            <summary>
+            添加一个战地
+            </summary>
+            <param name="fieldName">战地名</param>
+            <param name="field">战地</param>
+        </member>
+        <member name="M:FengShenServer.Game.BattleFields.GetField(System.String)">
+            <summary>
+            得到一个战地
+            </summary>
+            <param name="fieldName">战地名</param>
+            <returns>战地</returns>
+        </member>
+        <member name="M:FengShenServer.Game.BattleFields.RemoveField(System.String)">
+            <summary>
+            移除一个战地
+            </summary>
+            <param name="fieldName">战地名</param>
+        </member>
+        <member name="M:FengShenServer.GoodsManager.GetEquipList(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取符合条件的装备列表
+            </summary>
+            <param name="equipPart">指定部位，0-任何/1-头/2-身/3-腰/4-足/5-坐骑/6-法宝</param>
+            <param name="equipQuality">指定品质，0-随机/1-白色/2-绿色/3-蓝色/4-紫色/5-橙色</param>
+            <param name="equipProfessionType">装备职业，0-甲士/1-真人/2-道士/9-全部</param>
+            <returns></returns>
+        </member>
+        <member name="T:FengShenServer.Game.Misc">
+            <summary>
+            杂项模块
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.Load">
+            <summary>
+            杂项初始化
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.GetEmperor(System.Int32)">
+            <summary>
+            得到君主信息
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>君主信息</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.GetEmperor2(System.Int32)">
+            <summary>
+            得到君主信息
+            </summary>
+            <param name="userid">用户ID</param>
+            <returns>君主信息</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.RefreshEmperorInfo(FengShenServer.PlayerInfo)">
+            <summary>
+            刷新君主信息
+            </summary>
+            <param name="player">玩家</param>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.RefreshCityInfo(FengShenServer.PlayerInfo)">
+            <summary>
+            刷新玩家当前城市信息
+            </summary>
+            <param name="player">玩家</param>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.GetPage``1(System.Int32@,System.Int32,System.Collections.Generic.List{``0},System.Int32@)">
+            <summary>
+            分页
+            </summary>
+            <typeparam name="T">元素类型</typeparam>
+            <param name="page">页数</param>
+            <param name="size">每页元素数</param>
+            <param name="list">列表</param>
+            <param name="pages">总页数</param>
+            <returns>分页后列表</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.LoadAllRank">
+            <summary>
+            装载所有排行
+            </summary>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.GetGuildRank(System.Int32)">
+            <summary>
+            得到公会排名
+            </summary>
+            <param name="guildid">公会ID</param>
+            <returns>公会排名</returns>
+        </member>
+        <member name="M:FengShenServer.Game.Misc.GetGuildRankList">
+            <summary>
+            得到公会排名列表
+            </summary>
+            <returns>公会排名列表</returns>
+        </member>
+        <member name="T:FengShenServer.Game.Convertor">
+            <summary>
+            协议转换器
+            </summary>
+        </member>
+    </members>
+</doc>
