@@ -11,13 +11,13 @@ Một số yêu cầu và các điểm cần lưu ý khi cài đặt game Đắc
 ## Cơ sở dữ liệu Mysql
 Huớng dẫn cài đặt cơ sở dữ liệu
 
-1. Giải nén thư mục /Server vào ổ C:
+1. Giải nén thư mục ___Server___ vào ổ C:
 2. Chạy file mysql.bat với quyền Admin (run as Administrator)
-3. Tài khoản mặc định user=*root* password=*WMeRc2xb*
+3. Tài khoản mặc định user=___root___ password=___WMeRc2xb___
 4. Khi muốn đóng, bật Task Manager lên tìm process mysql-nt, đóng process là xong
 
 ## Hướng dẫn thiết lập và chạy game trên máy cá nhân
-Thư mục lưu file chạy máy chủ có tên là *s1* 
+Thư mục lưu file chạy máy chủ có tên là ___s1___
 Cần lưu ý và phải thực hiện đầy đủ các bước được yêu cầu như sau
 
 Lần đầu chạy máy chủ:
