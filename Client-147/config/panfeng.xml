@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<fs>
+	<!-- 运行时名称 无特殊情况无需更改 -->
+	<runName>FengShengWuDi</runName>
+	<!-- 0为无限制，大于0为限制的数量，限单开为1,最多双开为2,最多三开为3... -->
+	<runLimit>0</runLimit>
+</fs>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<fs>
+	<version>1.4.7.1</version>
+	<!--vertype 1: debug 0:正式版本-->
+	<vertype>0</vertype>
+	<ipNumber></ipNumber>
+	<validateCode>1</validateCode>
+	<needGM>true</needGM><!-- true is show GM -->
+	<web>	
+		<!--网站主页-->
+		<index url="https://www.facebook.com/DackyVnNet/?fref=ts" servertype="0" port="80"></index>	
+		<!--注册页面-->
+		<reg url="http://dacky.icclt.com/register.php" servertype="1" port="80"></reg>
+		<!--充值页面-->
+		<pay url="https://www.facebook.com/DackyVnNet/?fref=ts" servertype="1" port="80"></pay>
+		<!--客服页面-->
+		<custom url="https://www.facebook.com/DackyVnNet/?fref=ts" servertype="1" port="80"></custom>
+		<!--帮助页面-->
+		<help url="https://www.facebook.com/DackyVnNet/?fref=ts" servertype="1" port="80"></help>
+		<!--登录页面-->
+		<login url="http://dacky.icclt.com/" servertype="1" port="80"></login>
+		<!--论坛页面-->
+		<bbs url="https://www.facebook.com/groups/1468000343528117/" servertype="1" port="80"></bbs>
+		<!--页面标题，分区名称-->
+		<titlename>Võ Vương Phạt Trụ </titlename>
+		<!--版本标题-->
+		<versionname>Thần Quyết Thiên Hạ</versionname>
+		<!--页面标题，目前未加此功能-->
+		<bigname>Đắc Kỷ Trụ Vương-</bigname>
+	</web>
+	<game>
+		<!--游戏服务器地址及端口-->	
+		<server ip="125.212.233.154" servertype="1" port="7073"></server>
+		<!--	<server ip="221.65.43.231" servertype="1" port="10000"></server> -->
+		<!--	 <server ip="103.28.37.171" servertype="1" port="7073"></server> -->
+			 <!--<server ip="64.250.116.193" servertype="1" port="7073"></server>	-->
+
+				<!-- 	<server ip="221.65.43.231" servertype="1" port="10000"></server>-->
+ 
+
+		<!--重连间隔时间(秒)-->
+		<intertime>30</intertime>
+		<!--重连次数-->
+		<internum>5</internum>
+		<!--滚动播放速度-->
+		<bbsspeed>2</bbsspeed>
+                <!--贸易系统开关:0为开、1为关-->
+                <onAndOff>0</onAndOff>    
+	</game>
+	<!--公告-->
+	
+<bbs><![CDATA[<font color="#66FF00">Các bạn thân mến:</font><br>
+Chào mừng bạn đến với trò chơi nói về đất nước Trung Quốc cổ đại đầy thần bí và huyền ảo ——<font color="#CCFF00"><strong>《Đắc Kỷ Trụ Vương》</strong></font>!<br>    <font color="#CCFF00"><strong>《Đắc Kỷ Trụ Vương》</strong></font> là game chiến lược chơi trên web nổi tiếng phát hành tại Việt Nam.Trong trò chơi, bạn có thể đích thân trải nghiệm những trận đánh, công thành chiến hoành tráng với sự tham gia của với hàng trăm nghìn quân lính, do đích thân bạn điều khiển.
+]]>
+</bbs>
+
+	<union>		
+		<!--论坛 充值 客服地址 为空表示使用官方网址-->
+		<index key="5in8" payurl="http://pay.9igame.com/" bbsurl="http://bbs.9igame.com/forum-34-1.html" customurl="http://about.9igame.com/cs.html" helpurl="http://bbs.9igame.com/forum-34-1.html" loginurl="http://fs.9igame.com/"></index>	
+		<index key="nubb" payurl="http://games.nubb.com/pay/fswd/" bbsurl="http://game.nubb.com/fswd/" customurl="http://game.nubb.com/fswd/" helpurl="http://game.nubb.com/fswd/" loginurl="http://game.nubb.com/fswd/"></index>	
+		<index key="51wan" payurl="http://pay.51wan.com/" bbsurl="http://bbs.51wan.com/forum-274-1.html" customurl="http://user.51wan.com/service_index.php" helpurl="http://fswd.51wan.com/" loginurl="http://fswd.51wan.com/"></index>
+		<index key="kaiying" payurl="http://passport.51fswd.com/payment/index.aspx" bbsurl="http://www.sgyouxi.com/fswd/login.php" customurl="http://www.sgyouxi.com/kefu/" helpurl="http://www.sgyouxi.com/fswd/login.php" loginurl="http://www.sgyouxi.com/fswd/login.php"></index>
+		<index key="kds" payurl="http://passport.51fswd.com/payment/index.aspx" bbsurl="http://webgame.pchome.net/" customurl="http://webgame.pchome.net/" helpurl="http://webgame.pchome.net/" loginurl="http://webgame.pchome.net/"></index>
+		<index key="966" payurl="http://passport.51fswd.com/payment/index.aspx" bbsurl="http://bbs.51fswd.com/" customurl="http://www.51fswd.com/KF_Center.aspx" helpurl="http://bbs.51fswd.com/showtopic-3454.aspx" loginurl="http://www.51fswd.com/"></index>
+		<index key="jinti" payurl="http://passport.51fswd.com/payment/index.aspx" bbsurl="http://game.jinti.com/fswd/" customurl="http://game.jinti.com/fswd/" helpurl="http://game.jinti.com/fswd/" loginurl="http://game.jinti.com/fswd/"></index>
+		<index key="gz" payurl="http://fs.xingkong.com/" bbsurl="http://fs.xingkong.com/" customurl="http://fs.xingkong.com/" helpurl="http://fs.xingkong.com/" loginurl="http://fs.xingkong.com/"></index>
+		<index key="baidu" payurl="http://bdcharge.51fswd.com/BDCharge/Opay.aspx" bbsurl="http://tieba.baidu.com/f?kw=%B7%E2%C9%F1%CE%DE%B5%D0" customurl="http://wanba.baidu.com/kf.shtml" helpurl="http://wanba.baidu.com/fswd/" loginurl="   "></index>
+		<index key="q" payurl="http://passport.51fswd.com/payment/Index.aspx" bbsurl="http://bbs.dmyc.net/dmycnet/index.php" customurl="http://fswd.qs198.com/kefu.html" helpurl="http://fswd.qs198.com/help.html" loginurl="http://fswd.qs198.com"></index>
+		<index key="wanglian" payurl="http://www.ucbox.com/Game/GoPage.aspx?type=pay" bbsurl="http://www.ucbox.com/Game/GoPage.aspx?type=bbs" customurl="http://www.ucbox.com/member/kefu.aspx" helpurl="http://www.ucbox.com/Game/GoPage.aspx?type=fswd" loginurl="http://www.ucbox.com/Game/GoPage.aspx?type=login"></index>
+		<index key="wshd" payurl="http://pay.walike.com/PayMethods/14" bbsurl="http://bbs.walike.com/forum-141-1.html" customurl="http://service.walike.com" helpurl="http://fswd.walike.com/NewsCategory/101" loginurl="http://fswd.walike.com"></index>
+		<index key="rxgh" payurl="http://www.gh175.com/pay/" bbsurl="http://bbs.gh175.com/" customurl="http://bbs.gh175.com/index.asp?boardid=760" helpurl="http://bbs.gh175.com/index.asp?boardid=760" loginurl="http://www.gh175.com/game_fswd/gamelist.asp"></index>
+		<index key="zonyou" payurl="http://www.zonyou.com/pay/" bbsurl="http://i.zonyou.com/default.aspx" customurl="http://www.zonyou.com/Service/" helpurl="http://i.zonyou.com/23/list-1.aspx" loginurl="http://i.zonyou.com/login.aspx"></index>
+		<index key="taluo" payurl="http://pay.156.net" bbsurl="http://bbs.51fswd.com/" customurl="http://bbs.51fswd.com/showforum-22.aspx" helpurl="http://www.156.net/fswd/guide.html" loginurl="http://www.156.net/serverlist.aspx?game=fswd"></index>
+
+	</union>
+<!-- 每日活动 xml 地址 -->
+                   <activity url="config/activity.xml" />
+
+
+		
+</fs>

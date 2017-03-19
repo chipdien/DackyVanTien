@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<face-config>
+    <face 
+    	type="mainCity" level="1" 
+    	isSWF="false"
+    	res="res/icon/city/city_main_1.png" />
+	<face 
+    	type="mainCity" level="2" 
+    	isSWF="false"
+    	res="res/icon/city/city_main_2.png" />
+	<face 
+    	type="mainCity" level="3" 
+    	isSWF="false"
+    	res="res/icon/city/city_main_3.png" />
+	<face 
+    	type="mainCity" level="4" 
+    	isSWF="false"
+    	res="res/icon/city/city_main_4.png" />
+    <face 
+    	type="partCity" level="1"
+    	isSWF="false" 
+    	res="res/icon/city/city_part_1.png" />
+	<face 
+    	type="partCity" level="2"
+    	isSWF="false" 
+    	res="res/icon/city/city_part_2.png" />
+	<face 
+    	type="partCity" level="3"
+    	isSWF="false" 
+    	res="res/icon/city/city_part_3.png" />
+	<face 
+    	type="partCity" level="4"
+    	isSWF="false" 
+    	res="res/icon/city/city_part_4.png" />
+    <face 
+    	type="specialTerra" level="destory" 
+	    isSWF="false" 
+	    res="res/icon/city/destroySpecialTerra.png" />
+     
+    <face 
+    	type="specialTerra" level="new"
+        isSWF="true" 
+	    res="res/icon/city/SpecialTerra.swf" className="$RESSpecialTerra"  />
+	          
+</face-config>

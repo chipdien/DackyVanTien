@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- time 该活动的持续时间 2009.9.25.12 [年.月.日.时]-->
+<!-- duration 单位秒 间隔时间 -->
+<!-- title 每一条活动显示的主题 -->
+<!-- url 每一条活动显示的主题的超链接 -->
+<!-- color 每一条活动显示的主题的颜色 -->
+<!-- refreshTime 单位 分钟 整数倍 刷新时间 -->
+
+<active refreshTime="1" time="2009.12.31.1-2014.6.24.12" >
+        
+        <item title="--TIÊU ĐỀ THÔNG BÁO---" url="http://google.com.vn" color="#24FF00" duration="10" speed="-1"/>
+        
+</active>

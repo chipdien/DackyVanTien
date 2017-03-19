@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Mothproof>
+<loginURL>
+<defaultURL path="http:%%fcm.kuwan8.com%AddCardInfo.aspx"/>
+<url name="51fswd" path="http:%%fcm.kuwan8.com%AddCardInfo.aspx"/>
+<url name="yidu" path="http:%%fcm.kuwan8.com%AddCardInfo.aspx"/>
+</loginURL>
+<EngrossedGuard Total="8" Age="18" UpdateTime="10000">
+<times order="1" time="3600">您累计在线时间已满1小时</times>
+<times order="2" time="7200">您累计在线时间已满2小时</times>
+<times order="3" time="10800">您累计在线时间已满3小时，请您下线休息，做适当身体活动。</times>
+<times order="4" time="10810">您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50％，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。</times>
+<times order="5" time="12600">您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50％，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。</times>
+<times order="6" time="14400">您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50％，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。</times>
+<times order="7" time="16200">您已经进入疲劳游戏时间，您的游戏收益将降为正常值的50％，为了您的健康，请尽快下线休息，做适当身体活动，合理安排学习生活。</times>
+<times order="8" time="18000">您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常</times>
+<lastTime time="900">您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常</lastTime>
+</EngrossedGuard>
+		
+</Mothproof>
+
+
+
+

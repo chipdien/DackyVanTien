@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MiniBulletin>
+	<!-- 公告最多5个 少于5个请删除或注释掉 -->
+	<bulletin>	
+		<value><![CDATA[Trần Lãm]]></value>
+		<url>https://www.facebook.com/notes/v%E1%BA%A1n-ti%C3%AAn-chi%E1%BA%BFn-%C4%91%E1%BA%AFc-k%E1%BB%B7-private-server/hd-danh-ti%C3%AAn-tr%E1%BA%A7n-l%C3%A3m-12-s%E1%BB%A9-qu%C3%A2n/1245258162212615</url>
+		<focusSytle><![CDATA[HD triêu mộ <font color='#3B92D9' ><u>%VALUE%</u></font> - Loạn 12 sứ quân]]></focusSytle>
+		<normalSytle><![CDATA[HD triêu mộ <font color='#3B92D9' >%VALUE%</font>  - Loạn 12 sứ quân]]></normalSytle>
+	</bulletin>
+
+	<bulletin>	
+		<value><![CDATA[Cùng thảo luận, đóng góp ý tưởng xây dựng game]]></value>
+		<url>https://www.facebook.com/groups/1468000343528117/</url>
+		<focusSytle><![CDATA[ <font color='#24FF00' >%VALUE%</font> ]]></focusSytle>
+		<normalSytle><![CDATA[ <font color='#24FF00' >%VALUE%</font> ]]></normalSytle>
+	</bulletin>
+	
+	
+</MiniBulletin>
