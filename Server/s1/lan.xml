@@ -1,0 +1,1536 @@
+﻿<language>
+  <!-- ChatInstance.cs，以下内容不要翻译成外文 -->
+  <n key="0" value="世界"/>
+  <n key="1" value="公告"/>
+  <n key="-1" value="Công cáo"/>
+
+
+  <!-- DbAccess.cs -->
+  <n key="2" value="Tài khoản đã tồn tại"/>
+
+
+  <!-- GameServer.zh-cn.txt -->
+  <n key="3" value="Vừa Offline"/>
+  <n key="4" value="Ofline {0} giờ"/>
+  <n key="5" value="Online"/>
+  <n key="6" value="Offline"/>
+  <n key="7" value="{0} đã {1}"/>
+  <n key="8" value="Online"/>
+  <n key="9" value="Offline"/>
+  <n key="10" value="{0} muốn thêm chúa công vào danh sách hảo hữu."/>
+  <n key="11" value="{0} đã gia nhập bang."/>
+  <n key="12" value="Đơn xin gia nhập bang."/>
+  <n key="13" value="Đơn xin tham gia bang ({0}) của chúa công đã được chấp thuận."/>
+  <n key="14" value="Thành viên"/>
+  <n key="15" value="Quan viên"/>
+  <n key="16" value="Trưởng lão"/>
+  <n key="17" value="Phó bang chủ"/>
+  <n key="18" value="Bang chủ"/>
+  <n key="19" value="{0} đã phong {1} thành “{2}”."/>
+  <n key="20" value="{0} đã rời khỏi bang"/>
+  <n key="21" value="{0} đã khai trừ {1} khỏi bang hội."/>
+  <n key="22" value="Tin tức bang hội"/>
+  <n key="23" value="Chúa công đã bị bang chủ {1} của bang ({0}) khai trừ khỏi bang hội."/>
+  <n key="24" value="Đồng minh"/>
+  <n key="25" value="Kẻ địch"/>
+  <n key="26" value="Trung lập"/>
+  <n key="27" value="{0} đã ngoại giao với bang [{1}], 2 bên đã trở thành {2}."/>
+  <n key="28" value="[{0}] đưa quan hệ ngoại giao của bang ta biến thành {1}."/>
+  <n key="29" value="[{0}] và bang [{1}] tuyên chiến."/>
+  <n key="30" value="{0} xóa bỏ mối quan hệ {2} với bang [{1}]."/>
+  <n key="31" value="[{0}] đã xóa bỏ quan hệ {1} với bang của ta."/>
+  <n key="32" value="{0}({1})"/>
+  <n key="33" value="Năng cấp."/>
+  <n key="34" value="Quyên góp."/>
+  <n key="35" value="Lợi nhuận."/>
+  <n key="36" value="{0} giờ"/>
+  <n key="37" value="{0} phút"/>
+  <n key="38" value="Chưa n.cứu"/>
+  <n key="39" value="Đang n.cứu {0}"/>
+  <n key="40" value="Hoàn thành"/>
+  <n key="41" value="Nghiên cứu"/>
+  <n key="42" value="Mua đạo cụ"/>
+  <n key="43" value="Chế tạo"/>
+  <n key="44" value="Đang chế tạo {0}"/>
+  <n key="45" value="Không thể chế tạo"/>
+  <n key="46" value="Tiêu tốn {0} thất bại ({1})"/>
+  <n key="47" value="Báo cáo mua"/>
+  <n key="48" value="Báo cáo bán"/>
+  <n key="49" value="({0},{1})"/>
+  <n key="50" value="Chu"/>
+  <n key="51" value="Thương"/>
+  <n key="52" value="Chúc mừng {0} đã bốc được quẻ đại cát đại lợi, nhận được {1}."/>
+  <n key="53" value="Quân chủ {0} đã mua [{1}] X {2} cái từ Thương Thành để tặng cho chúa công. Xin hãy mở Hòm Đồ để kiểm tra."/>
+  <n key="54" value="{0} tặng {1} cho chúa công."/>
+
+  <!-- ArmyManager.cs -->
+  <n key="55" value="Vị trí mục tiêu vô hiệu."/>
+  <n key="56" value="Một đội quân chỉ có thể phái đi nhiều nhất 5 thần tiên."/>
+  <n key="57" value="Chúa công không thể bị phái đến phân thành của chính mình."/>
+  <n key="58" value="Sau khi sử dụng Di Thành Phù Cao Cấp, trong vòng {0} giờ không thể xuất binh, vẫn còn {1}."/>
+  <n key="59" value="Tiên Sơn Phúc Địa chỉ có thể tiến hành dò tìm nhiệm vụ."/>
+  <n key="60" value="Chúa công đã phái 1 đội quân do thám vùng Tiên Sơn Phúc Địa này."/>
+  <n key="61" value="Tìm kiếm chỉ có thể tiến hành ở Tiên Sơn Phúc Địa."/>
+  <n key="62" value="Khởi nghĩa chỉ có thể tiến hành ở thành của mình."/>
+  <n key="63" value="Trong một thời điểm chỉ có thể có 1 đội quân tiến hành khởi nghĩa."/>
+  <n key="64" value="Không thể phái quân tới vùng đất hoang không phải của mình."/>
+  <n key="65" value="Không thể vận chuyển tới vùng đất hoang."/>
+  <n key="66" value="Không thể điều binh tới vùng đất hoang."/>
+  <n key="67" value="Không thể do thám vùng đất hoang và thành trì của mình."/>
+  <n key="68" value="Không thể cướp vùng đất hoang và thành trì của mình."/>
+  <n key="69" value="Không thể chinh phục vùng đất hoang và thành trì của mình."/>
+  <n key="70" value="Không thể vận chuyển tới chính thành của mình."/>
+  <n key="71" value="Không thể điều binh tới chính thành của mình."/>
+  <n key="72" value="Không thể phái quân tới chính thành của mình."/>
+  <n key="73" value="Không thể do thám ,cướp đoạt tới thành trì hoặc vùng đất hoang của bang hội chúa công hoặc người cùng bang hội"/>
+  <n key="74" value="Không thể điều binh tới thành trì hoặc vùng đất hoang của bang hội chúa công hoặc người cùng bang hội"/>
+  <n key="75" value="Không thể phái đi tới thành trì hoặc vùng đất hoang của bang hội chúa công hoặc người cùng bang hội"/>
+  <n key="76" value="Không thể cướp đoạt hoặc chinh phục vùng thuộc địa."/>
+  <n key="77" value="Không thể điều binh tới vùng thuộc địa."/>
+  <n key="78" value="Không thể vận chuyển tới vùng lãnh địa （chỉ có thể cứu tế）."/>
+  <n key="79" value="Không thể điều binh đến vùng đất hoang của lãnh chúa."/>
+  <n key="80" value="Không thể phái binh đến thành trì của lãnh chúa."/>
+  <n key="81" value="Không thể vận chuyển với lãnh chúa（Lãnh chúa có thể trưng thu）."/>
+  <n key="82" value="Không thể cướp đoạt hoặc chinh phục với lãnh chúa."/>
+  <n key="83" value="Thuộc địa không thể tiến hành xuất binh tới các thành trì hoặc vùng đất hoang khác của lãnh chúa"/>
+  <n key="84" value="Không thể điều binh tới thành này."/>
+  <n key="85" value="Không thể phái quân tới thành này."/>
+  <n key="86" value="Không thể vận chuyển tới thành này."/>
+  <n key="87" value="Không thể phái quân tới vùng đất hoang không phải của mình."/>
+  <n key="88" value="Tân thủ"/>
+  <n key="89" value="Miễn chiến"/>
+  <n key="90" value="Nghỉ ngơi"/>
+  <n key="91" value="Trạng thái không thể đối với người chơi khác."/>
+  <n key="92" value="Tiến hành do thám thành trì."/>
+  <n key="93" value="Tiến hành cướp đoạt thành trì và đất hoang."/>
+  <n key="94" value="Tiến hành chinh phục thành trì và đất hoang."/>
+  <n key="95" value="Thành đối phương đang trong thời kì bảo hộ tân thủ."/>
+  <n key="96" value="Thành đối phương đang treo Miễn Chiến Bài."/>
+  <n key="97" value="Thành đối phương đang trong trạng thái nghỉ ngơi."/>
+  <n key="98" value="Đối với thành đang phong ấn không thể phái quân đi, vận chuyển hoặc điều binh."/>
+  <n key="99" value="Danh thành này đang trong thời kì bảo hộ 24h sau khi bị chiếm lĩnh, còn{0}."/>
+  <n key="101" value="Vàng không đủ."/>
+  <n key="102" value="{0} không đủ."/>
+  <n key="103" value="Không thể xây dựng quân đội."/>
+  <n key="104" value="Số lượng binh chủng {0} không đủ."/>
+  <n key="105" value="Binh chủng {0} bị trùng chỉ định."/>
+  <n key="106" value="Thần tiên{0} bị trùng lệnh phái đi."/>
+  <n key="107" value="Chúa công không thể sở hữu cùng vùng đất hoang này."/>
+  <n key="108" value="Không thể do thám vùng đất hoang khi không có quân đội đóng quân ở đó."/>
+  <n key="109" value="   {0}&#x0009;nhận được {1} điểm kinh nghiệm&#x000A;"/>
+  <n key="110" value="Do thám bị buộc dừng lại&#x000A;Thần tiên của chúa công đi quá vội vàng，cái gì cũng không nhận được."/>
+  <n key="111" value="Do thám bị buộc dừng lại&#x000A;Thần tiên của chúa công tiêu tốn mấy giờ liền, cũng coi như có chút thu hoạch：&#x000A;Thần tiên nhận được tổng cộng {0} điểm kinh nghiệm."/>
+  <n key="112" value="Tìm kiếm bị buộc dừng lại&#x000A;Thần tiên của chúa công tiêu tốn mấy giờ liền,cũng coi như có chút thu hoạch：&#x000A;Thần tiên nhận được tổng cộng {0} điểm kinh nghiệm."/>
+  <n key="113" value="Thần tiên nhận được tổng cộng {0} điểm kinh nghiệm."/>
+  <n key="114" value="Báo cáo do thám."/>
+  <n key="115" value="Do thám gián đoạn."/>
+  <n key="116" value="Không thể tiến hành tìm kiếm vùng đất hoang không có quân đội đóng quân."/>
+  <n key="117" value="Tìm kiếm bị buộc dừng lại&#x000A;Thần tiên của chúa công đi quá vội vàng，cái gì cũng không nhận được."/>
+  <n key="118" value="Báo cáo tìm kiếm."/>
+  <n key="119" value="Tìm kiếm gián đoạn."/>
+  <n key="120" value="Đây là vùng tiên cảnh, không ai được sở hữu."/>
+  <n key="121" value="Không thể tiến hành tu luyện tại vùng tiên cảnh không có quân đội đóng quân."/>
+  <n key="122" value="Tu luyện bị buộc dừng lại."/>
+  <n key="123" value="Báo cáo tu luyện."/>
+  <n key="124" value="Tu luyện gián đoạn."/>
+  <n key="125" value="Thần tiên nhận được {0} kinh nghiệm."/>
+
+
+  <!-- EmperorManager.cs -->
+  <n key="126" value="Cấp của cung điện đã đạt mức cao nhất."/>
+  <n key="127" value="Vị quân chủ này không có trên mạng."/>
+  <n key="128" value="Tiêu tốn {0} thất bại."/>
+  <n key="129" value="Đạo cụ này không thể sử dụng ở đây."/>
+  <n key="130" value="Cấp của tường thành đã đạt mức cao nhất."/>
+  <n key="131" value="Cấp {0} đã đạt mức cao nhất."/>
+  <n key="132" value="Không hủy được chế tạo binh giới."/>
+  <n key="133" value="Không hủy được việc xây dựng thành phòng ngự."/>
+  <n key="134" value="Hệ thống"/>
+  <n key="135" value="Thành của chúa công ở tọa độ ({0},{1}) [{2}] thời gian phong ấn sắp hết, xin hãy phòng ngự cẩn thận."/>
+  <n key="136" value="Thành của chúa công thiếu lương thực trầm trọng, trong thành xuất hiện binh biến, đa số binh sĩ đói bụng đều đã bỏ đi."/>
+  <n key="137" value="Báo cáo thiên tai"/>
+  <n key="138" value="Thành của chúa công do thiếu vàng, lòng dân giảm."/>
+  <n key="139" value="Báo cáo thiên tai"/>
+  <n key="140" value="Đã phản hồi"/>
+  <n key="141" value="Điều binh phản hồi"/>
+  <n key="142" value="Phái quân phản hồi"/>
+  <n key="143" value="Chinh phục phản hồi"/>
+  <n key="144" value="Cướp đoạt phản hồi"/>
+  <n key="145" value="Do thám phản hồi"/>
+  <n key="146" value="Vận chuyển phản hồi"/>
+  <n key="147" value="Khởi nghĩa phản hồi"/>
+  <n key="148" value="Do thám phản hồi"/>
+  <n key="149" value="Quân sự phản hồi"/>
+  <n key="150" value="Do thám về tin tức tiên thuật."/>
+  <n key="151" value="Không tồn tại bất cứ tin tức tiên thuật nào."/>
+  <n key="152" value="Do thám tin tức tiên thuật thất bại."/>
+  <n key="153" value="Dân"/>
+  <n key="154" value="Vàng"/>
+  <n key="155" value="Lòng dân"/>
+  <n key="156" value="Cung điện"/>
+  <n key="157" value="Tường thành"/>
+  <n key="159" value="Do thám đến tin tức kiến trúc."/>
+  <n key="160" value="Không tồn tại bất cứ tin tức kiến trúc nào."/>
+  <n key="161" value="Do thám tin tức kiến trúc thất bại."/>
+  <n key="162" value="Do thám đến tin tức binh chủng."/>
+  <n key="163" value="Không tồn tại bất cứ tin tức binh chủng nào."/>
+  <n key="164" value="Do thám binh lực địch thất bại."/>
+  <n key="165" value="Do thám về tin tức tiên thuật."/>
+  <n key="166" value="Không tồn tại bất cứ tin tức tiên thuật nào."/>
+  <n key="167" value="Do thám tin tức tiên thuật thất bại."/>
+  <n key="168" value="Do thám đến tin tức binh chủng."/>
+  <n key="169" value="Không tồn tại bất cứ tin tức binh chủng nào."/>
+  <n key="170" value="Do thám binh lực địch thất bại."/>
+  <n key="171" value="Có tin mật thám"/>
+  <n key="172" value="Thành này không có bất cứ mật thám nào có hiệu lực."/>
+  <n key="173" value="Quân mật thám bị phát hiện, không em nào còn sống sót."/>
+  <n key="174" value="Không thể tiến hành do thám"/>
+  <n key="175" value="Dừng hoạt động do thám của đối phương thành công."/>
+  <n key="176" value="Do thám phòng thủ"/>
+  <n key="177" value="Báo cáo do thám"/>
+  <n key="178" value="Không thể tiến hành vận chuyển tới mục tiêu."/>
+  <n key="179" value="Vận chuyển hoàn thành"/>
+  <n key="180" value="Báo cáo vận chuyển"/>
+  <n key="181" value="Không thể tiến hành điều binh tới mục tiêu."/>
+  <n key="182" value="Điều binh hoàn thành"/>
+  <n key="183" value="Báo cáo điều binh"/>
+  <n key="184" value="Không thể tiến hành phái binh tới mục tiêu."/>
+  <n key="185" value="Cấp của Tụ Tiên Các không đủ để nhận thêm thần tiên trú ngụ."/>
+  <n key="186" value="Phái đi thành công"/>
+  <n key="187" value="Số quân đội đóng tại vùng đất hoang đã đầy."/>
+  <n key="188" value="Phái đi thành công"/>
+  <n key="189" value="Thành mục tiêu đang trong trạng thái nghỉ ngơi, quân đội không thể đóng quân."/>
+  <n key="190" value="Thành mục tiêu đã bị phong ấn,quân đội không thể đóng quân."/>
+  <n key="191" value="Hội Minh Đàn thiết lập không cho đóng quân, quân đội không thể đóng quân."/>
+  <n key="192" value="Cấp của Hội Minh Đàn không đủ để nhận thêm quân đội đóng quân."/>
+  <n key="193" value="Phái đi thành công"/>
+  <n key="194" value="Báo cáo phái đi"/>
+  <n key="195" value="Mục tiêu không thể tiến hành cướp đoạt."/>
+  <n key="196" value="Đội quân đi cướp thành {0}（{1}，{2}） đã đến mục tiêu nhưng thành đối phương quá vững chắc không thể tiến vào. Quân ta đứng dưới cửa thành bị mắng 1 trận, tức tối quay về."/>
+  <n key="197" value="Đội quân xuất phát từ {0}（{1}，{2}） do bị tường thành kiên cố của ta cản đường,không những không cướp được gì mà còn bị mắng 1 trận, tức tối quay về."/>
+  <n key="198" value="Trong vùng đất hoang không một bóng người, hoang vu lạnh lẽo."/>
+  <n key="199" value="Trong vùng đất hoang không có quân đội đóng quân, đối phương không cướp được tài nguyên gì."/>
+  <n key="200" value="Trong vùng đất hoang phát hiện quân đội của ta đóng quân, chiến đấu được hóa giải thành hòa bình"/>
+  <n key="201" value="Trong vung đất hoang phát hiện quân đối phương đóng quân, chiến đấu được hóa giải thành hòa bình"/>
+  <n key="202" value="Trong thành không gặp sự phản kháng nào."/>
+  <n key="203" value="Chúa công không phân công cho quân đội thủ thành, binh lính rảnh rỗi, say sưa chè chén, lơi là cảnh giác, không thể chặn sự cướp đoạt của kẻ địch. Hối hận thì đã muộn."/>
+  <n key="204" value="Trong thành phát hiện quân đội của ta đóng quân, chiến đấu được hóa giải thành hòa bình. Đôi bên vui vẻ , bày mâm cổ chúc mừng."/>
+  <n key="205" value="Trong thành phát hiện quân đội đối phương đóng quân, chiến đấu được hóa giải thành hòa bình. Đôi bên vui vẻ , bày mâm cổ chúc mừng."/>
+  <n key="206" value="Dữ liệu mục tiêu hỗn loạn"/>
+  <n key="207" value="Báo cáo cướp đoạt"/>
+  <n key="208" value="Phòng thủ cướp đoạt"/>
+  <n key="209" value="Khung cảnh hoang tàn, cỏ cây xơ xác, cần phải có 1 thời gian mới hồi phục lại. Binh lính thất thểu quay về, chúa công đã hao lương tốn sức cho việc vô ích này."/>
+  <n key="210" value="Sau nhiều lần bị chúa công cướp bóc, bá tánh và quân đội thành này đầy tính cảnh giác đã đem tài nguyên đi cất giấu."/>
+  <n key="211" value="Do số tài nguyên trong thành đang thiếu hụt, quân đội và bá tánh vô cùng cảnh giác đã đem tài nguyên đi cất giấu."/>
+  <n key="212" value="Chinh phục"/>
+  <n key="213" value="Không thể tiến hành đối với mục tiêu {0}."/>
+  <n key="214" value="Đội quân đi chinh phục {0}（{1}，{2}） đã đến mục tiêu nhưng thành đối phương quá vững chắc không thể tiến vào. Quân ta đứng dưới cửa thành bị mắng 1 trận, tức tối quay về."/>
+  <n key="215" value="Đội quân xuất phát từ {0}（{1}，{2}） do bị tường thành kiên cố của ta cản đường,không những không cướp được gì mà còn bị mắng 1 trận, tức tối quay về."/>
+  <n key="216" value="Trong vùng đất hoang không có ai, không hao tổn một binh lực nào đã chiếm lĩnh {0} thành công."/>
+  <n key="217" value="Trong vùng đất hoang không có quân đội đóng quân, không thể dừng được kẻ địch chiếm lĩnh {0}.Thật là sơ suất quá!"/>
+  <n key="218" value="Trong vùng đất hoang không có ai, nhưng vì {0} nên điều kiện không đủ để {1}."/>
+  <n key="219" value="Trong vùng đất hoang không có quân đội đóng quân, không thể dừng được kẻ địch {0}(chiếm lĩnh). Nhưng vì điều kiện không đủ để {0}, quân địch chỉ còn cách quay về."/>
+  <n key="220" value="Danh thành này ở thời kỳ xây dựng sơ cấp"/>
+  <n key="221" value="Trong thành vườn không nhà trống, không tốn một giọt mồ hôi nào đã thành công."/>
+  <n key="222" value="Trong thành không có quân đội phản kháng, không thể dừng được kẻ địch {0}. Thật là sai một ly đi một dặm."/>
+  <n key="223" value="Trong thành không có quân đội phản kháng, nhưng vì {0}， không đủ điều kiện để {1}."/>
+  <n key="224" value="Trong thành không có quân đội phản kháng, không thể dừng được kẻ địch {0}. Nhưng do không đủ điều kiện để {1}, quân địch sau 1 hồi cướp đoạt thỏa thuê đã đắc chí bỏ về."/>
+  <n key="225" value="Trong thành không có quân đội phản kháng, không thể chống đỡ được sự {0} của kẻ địch. Nhưng vì không đủ điều kiện để {1}, quân địch chỉ còn cách quay về. Còn cơ hội để chúa công xây dựng kế hoạch phòng thủ đấy."/>
+  <n key="226" value="Trong thành không có quân đội phản kháng, nhưng vì lãnh chúa đã thay đổi, khởi nghĩa chuyển thành cướp đoạt."/>
+  <n key="227" value="mức oán giận trong thành chưa tới 50"/>
+  <n key="228" value="Trong thành không có quân đội phản kháng, {0} với mục đích nô dịch thành công."/>
+  <n key="229" value="Lính lác trong thành trốn hết rồi, không thể ngăn chặn sự {0} với mục đích nô dịch của kẻ địch."/>
+  <n key="230" value="{0} trong lúc quyết chiến đã đánh bại {1}， và biến lãnh thổ của chủ kẻ bại trận thành lãnh địa của mình. Từ đó, tên tuổi của {0} nổi như cồn, chấn động thiên hạ, mỹ nữ bu như kiến."/>
+  <n key="231" value="Trong thành không có quân đội phản kháng, nhưng vì {0}， không đủ điều kiện để {1} với mục đích nô dịch."/>
+  <n key="232" value="Trong thành không có quân đội phản kháng, không thể dừng được kẻ địch {0}. Nhưng vì không đủ điều kiện {1}, sau 1 hồi cướp đoạt đã hả hê bỏ về. Thật là tức đến vỡ tim."/>
+  <n key="233" value="Trong thành không có quân đội phản kháng, không thể dừng được kẻ địch {0}. Nhưng vì không đủ điều kiện {1}, địch quân đành khóc thút thít quay về."/>
+  <n key="234" value="Trong thành phát hiện quân đội của ta đóng quân, chiến đấu được hóa giải thành hòa bình. Đôi bên vui vẻ , bày mâm cổ chúc mừng."/>
+  <n key="235" value="Trong thành phát hiện quân đội đối phương đóng quân, chiến đấu được hóa giải thành hòa bình. Đôi bên vui vẻ , bày mâm cổ chúc mừng."/>
+  <n key="236" value="Dữ liệu mục tiêu hỗn loạn"/>
+  <n key="237" value="Danh thành {0} ({1},{2}) đã bị {3} chiếm lĩnh. Quả thật tướng tài."/>
+  <n key="238" value="Báo cáo chinh phục"/>
+  <n key="239" value="Phòng thủ chinh phục"/>
+  <n key="240" value="Thành xuất phát của quân đội không thể là thành chính."/>
+  <n key="241" value="Cấp Cung Điện của đối phương phải đạt cấp {0}. "/>
+  <n key="242" value="Thành trì mục tiêu vẫn đang trong thời kì nô dịch an toàn, vẫn còn {0}."/>
+  <n key="243" value="Quan Chức của lãnh chúa nhỏ hơn Quan Chức của quân chủ thành bị nô dịch"/>
+  <n key="244" value="Cung Điện đạt đến cấp {0} mới có thể nô dịch người khác."/>
+  <n key="245" value="Cấp của cung điện không đủ để nô dịch thêm các lãnh địa khác."/>
+  <n key="246" value="Không thể kiểm tra cấp Cung Điện"/>
+  <n key="247" value="Người chơi này hôm nay đã bị chúa công nô dịch 1 lần,không thể nô dịch thêm lần nữa. Hãy kiên nhẫn đợi đến mai."/>
+  <n key="248" value="Người chơi này hôm nay đã bị chúa công nô dịch 3 lần，không thể bị nô dịch thêm nữa. Hãy kiên nhẫn đợi đến mai."/>
+  <n key="249" value="Cấp của Cung Điện và Quan Chức không đủ để chiếm lĩnh thêm đất hoang."/>
+  <n key="250" value="Không thể kiểm tra cấp Cung Điện"/>
+  <n key="251" value="Quan chức của chúa công chỉ có thể thống trị được {0} thành."/>
+  <n key="252" value="Thành cần phong ấn không tồn tại."/>
+  <n key="253" value="Thành chúa công chọn không thể bị phong ấn."/>
+  <n key="254" value="Thành chúa công chọn lúc đang chiến đấu không thể phong ấn."/>
+  <n key="255" value="Thành chúa công chọn đang có quân đội ở ngoài không thể bị phong ấn."/>
+  <n key="256" value="Thành chúa công chọn đang có quân đội đóng quân không thể bị phong ấn"/>
+  <n key="257" value="Thành chúa công chọn đang sở hữu đất hoang không thể bị phong ấn."/>
+  <n key="258" value="Không thể đối với mục tiêu tiến hành khởi nghĩa."/>
+  <n key="259" value="Trong thành không gặp sự phản kháng nào, khởi nghĩa thành công. Xin chúc mừng!"/>
+  <n key="260" value="Trong thành không có quân đội phản kháng, không thể ngăn được sự khởi nghĩa của kẻ địch. Thật là sơ ý quá!"/>
+  <n key="261" value="Dữ liệu mục tiêu hỗn loạn"/>
+  <n key="262" value="Báo cáo khởi nghĩa"/>
+  <n key="263" value="Phòng thủ khời nghĩa"/>
+  <n key="264" value="Không thể tiến hành do thám tới mục tiêu"/>
+  <n key="265" value="Do thám đạt đến"/>
+  <n key="266" value="Khiêu chiến thất bại, tầng này không một bóng người."/>
+  <n key="267" value="Do thám bị buộc dừng lại."/>
+  <n key="268" value="Thần tiên của chúa công đi quá vội vàng，cái gì cũng không nhận được."/>
+  <n key="269" value="Do thám bị buộc dừng lại."/>
+  <n key="270" value="Thần tiên của chúa công tiêu tốn mấy canh giờ cũng coi như có chút thu hoạch. Tạm hài lòng chấp nhận với : "/>
+  <n key="271" value="Thần tiên nhận được tổng cộng {0} điểm kinh nghiệm."/>
+  <n key="272" value="Báo cáo do thám."/>
+  <n key="273" value="Do thám gián đoạn."/>
+  <n key="274" value="Tìm kiếm bị buộc dừng lại."/>
+  <n key="275" value="Báo cáo tìm kiếm."/>
+  <n key="276" value="Tìm kiếm gián đoạn."/>
+  <n key="277" value="Tu luyện bị buộc dừng lại."/>
+  <n key="278" value="Báo cáo tu luyện."/>
+  <n key="279" value="Tu luyện gián đoạn."/>
+  <n key="280" value="{0} trong lúc cùng với {1} chiến đấu thấy danh tiên {2} ngã ngựa, liền nhanh tay trói gô lại mang về thành xử lý."/>
+  <n key="281" value="{0} đã chiến đấu vô cùng gian khổ tại {1} cấp {2}, nhận được {3}. Trời thật không bạc đãi kẻ tài."/>
+  <n key="282" value="Cướp đoạt thành công。"/>
+  <n key="283" value="Sắp bước vào trận đấu tiếp theo"/>
+  <n key="284" value="Cướp đoạt thất bại"/>
+  <n key="285" value="Phòng thủ cướp đoạt thành công"/>
+  <n key="286" value="Phòng thủ cướp đoạt thất bại"/>
+  <n key="287" value="Phòng thủ cướp đoạt thất bại ,bên tấn công sắp bước vào trận chiến tiếp theo. Quốc gia loạn lạc, hãy mau mau đi cất giấu tài nguyên."/>
+  <n key="288" value="Báo cáo cướp đoạt"/>
+  <n key="289" value="Phòng thủ cướp đoạt"/>
+  <n key="290" value="Chinh phục"/>
+  <n key="291" value="dân tâm chưa bằng 0"/>
+  <n key="292" value="hiện tại oán giận trong bá tánh vẫn nhỏ hơn "/>
+  <n key="293" value="Do thám bị buộc dừng lại."/>
+  <n key="294" value="Báo cáo do thám."/>
+  <n key="295" value="Do thám gián đoạn."/>
+  <n key="296" value="Danh thành {0} ({1},{2}) đã bị {3} chiếm lĩnh. Quả thật tướng tài."/>
+  <n key="297" value="(chiếm lĩnh) thành công"/>
+  <n key="298" value="Do {0}， {1} điều kiện không đủ. Hãy thừa thắng xông lên."/>
+  <n key="299" value="(nô dịch) thành công"/>
+  <n key="300" value="Do {0}, {1} để nô dịch vẫn chưa đủ điều kiện để thành công. Nếu vẫn muốn nô dịch, hãy lập kế hoạch quân sự tiến đánh thêm lần nữa."/>
+  <n key="301" value="Sắp bước vào trận đấu tiếp theo"/>
+  <n key="302" value="Thất bại"/>
+  <n key="303" value="Phòng thủ thành công"/>
+  <n key="304" value="Phòng thủ thất bại"/>
+  <n key="305" value="Phòng thủ thất bại, bên tấn công sắp bước vào trận đấu tiếp theo."/>
+  <n key="306" value="Báo cáo chinh phục"/>
+  <n key="307" value="Phòng thủ chinh phục"/>
+  <n key="308" value="Chiếm lĩnh dừng lại"/>
+  <n key="309" value="Chúa công {0} trong lúc cùng với {1} chiến đấu thấy danh tiên {2} ngã ngựa, liền nhanh tay trói gô lại mang về thành xử lý."/>
+  <n key="310" value="Khởi nghĩa thành công"/>
+  <n key="311" value="Do thám hoàn thành, chúa công nhận được tổng cộng {0} kinh nghiệm."/>
+  <n key="312" value="Chúa công đã tìm kiếm rất lâu nhưng không được gì, dậm chân tức tối."/>
+  <n key="313" value="Thần tiên trú ở trạm đóng quân, Hp đã hoàn toàn hồi phục"/>
+  <n key="314" value="Nội dung đặc biệt： trong lần đi này chúa công đã gặp được 1 số “hiện tượng đặc biệt”."/>
+  <n key="315" value="Nội dung đặc biệt：trong lần đi này chúa công đã gặp được 1 số “hiên trượng đặc biệt”&#x000A;    1 cây cổ thụ lớn,bên dưới có 1 vị thần tiên đang ngồi hóng mát. Người đó ...chính là chúa công.chúa công ngồi dựa vào gốc cây,nhưng trong lúc vô ý đã làn rụng 1 quả，quả đó vừa mọng vừa tươi,nhìn qua đã biết là rất ngon.Không hề do dự, cho vào miệng,toàn thân phát ra ánh sáng,vô cùng kỳ lạ...       "/>
+  <n key="316" value="&#x000A;Hiệu quả： "/>
+  <n key="317" value="Thần tiên trong trạm đóng quân, Hp giảm {0}%."/>
+  <n key="318" value="Đề thị đặc biết：trong lần đi này chúa công đã gặp được 1 số “hiên trượng đặc biệt”&#x000A;    Khi đi qua các rãnh nước,chúa công nhìn thấy 1 vật thể phát ra ánh sán,trức giác thần tiên mách bảo đây là 1 bảo vật,chúa công cẩn thận bước xuống rãnh nước,nhưng không cẩn thận ngã 1 cái.Nhưng may mắn là,chúa công đã nhặt được nó.Trải qua sự kiểm định tỉ mỉ,ban phát hiện ra vật đó....chỉ là 1 cục đá có phát chút ánh sáng mà thôi.&#x000A;Hiệu quả：&#x000A;    "/>
+  <n key="319" value="Thần tiên trú ở trạm đóng quân, HP hạ xuống 1 điểm."/>
+  <n key="320" value="Thần tiên trú ở trạm đóng quân, pháp lực hoàn toàn hồi phục."/>
+  <n key="321" value="Thần tiên trú ở trạm đóng quân, pháp lực giảm {0}%."/>
+  <n key="322" value="Thần tiên trú ở trạm đóng quân, pháp lực hạ xuống 1 điểm"/>
+  <n key="323" value="Công kích phổ thông của các thần tiên tăng thêm 10%，kéo dài trong {0} giờ."/>
+  <n key="324" value="Phòng ngự của các thần tiên tăng thêm 10%， kéo dài trong {0} giờ."/>
+  <n key="325" value="Dũng võ của các thần tiên tăng thêm 10%， kéo dài trong {0} giờ."/>
+  <n key="326" value="Đạo pháp của các thần tiên tăng thêm 10%， kéo dài trong {0} giờ."/>
+  <n key="327" value="Mưu trí của các thần tiên tăng thêm 10%， kéo dài trong {0} giờ."/>
+  <n key="328" value="Trung thành của các thần tiên, tăng thêm {0}điểm."/>
+  <n key="329" value="Trung thành của các thần tiên hạ {0}điểm. Mau mau ban thưỡng bổng lộc kẻo mất đi tướng tài."/>
+  <n key="330" value="Thần tiên trú tại trạm đóng quân, kinh nghiêm tăng thêm {0}%."/>
+  <n key="331" value="Thần tiên trú tại trạm đóng quân, kinh nghiêm giảm đi {0}."/>
+  <n key="332" value="Sắp bước vào trận đấu tiếp theo"/>
+  <n key="333" value="Khởi nghĩa thất bại."/>
+  <n key="334" value="Phòng thủ khởi nghĩa thành công."/>
+  <n key="335" value="Phòng thủ khởi nghĩa thất bại."/>
+  <n key="336" value="Phòng thủ khởi nghĩa thất bại, phe công kích sắp bước vào trận đấu tiếp theo."/>
+  <n key="337" value="Báo cáo khởi nghĩa"/>
+  <n key="338" value="Phòng thủ khời nghĩa"/>
+  <n key="339" value="Chúa công {0} tại {1} cấp {2} tầng {3} trải qua chiến đấu gian khổ. Danh tiên {4} thấy tài mà mến mộ, liền bước ra quỳ gối tiếp kiến."/>
+  <n key="340" value="Chúa công {0} tại {1} cấp {2} tầng {3} sau khi trải qua nhiều giờ chiến đấu gian khổ đã nhận được {4}.Trời thật không bạc đãi người tài."/>
+  <n key="341" value="Khiêu chiến thành công"/>
+  <n key="342" value="Khiêu chiến thất bại"/>
+  <n key="343" value="Do thám khiêu chiến"/>
+  <n key="344" value="Thần tiên {0} bỏ chạy"/>
+  <n key="345" value="Do thám hoàn thành"/>
+  <n key="346" value="&#x000A;    chúa công vẫy tay 1 cái, mặt đất bỗng xuất hiện 1 hầm lớn,khiến quân đối phương thất kinh hồn vía,không nói nên lời, quay đầu bỏ chạy.Do chạy quá vội vàng đã đánh rơi 1 bọc đồ vật,chúa công tiến về phía trước nhặt lên...."/>
+  <n key="347" value="&#x000A;    chúa công vẫy tay 1 cái,hiện ra 1 khung cảnh tự nhiên，nhưng cái gì cũng không xảy ra,trong lúc chúa công đang ngạc nhiên,đối phương bỗng xông lên..."/>
+  <n key="348" value="Nội dung đặc biệt："/>
+  <n key="349" value='Nội dung đặc biệt：&#x000A;    Phia trước là 1 khu rừng lớn,xem có vẻ rất nguy hiểm.Trong lúc chúa công đang do dự không biết có nên đi qua hay không,đột nhiên có 1 người bước đến, nói lớn :  ngọn núi này là của tôi, người đi qua phải nạp thuế... .'/>
+  <n key="350" value="Do thám"/>
+  <n key="351" value="Tìm kiếm"/>
+  <n key="352" value="Chúa công {0} tại {1} cấp {2} sau {4} giờ， vô tình vấp phải bảo vật {3} té xuống đất, sập cả mão quan. Đứng dậy phủi phủi chép miệng: “Trong cái rủi có cái may“."/>
+  <n key="353" value="Nội dung đặc biệt： trong lần thân chinh này chúa công gặp được 1 số “hiện tượng đặc biệt“ "/>
+  <n key="354" value="Nội dung đặc biệt：trong lần đi này chúa công gặp được 1 số “hiện tượng đặc biệt“&#x000A;    Trong quá trình này，chúa công phát hiện 1 hang động thần bí,và trong động tìm thấy 1 hòm bảo vật cổ. chúa công mở nó ra ...&#x000A;Hiệu quả：&#x000A;    "/>
+  <n key="355" value="Nội dung đặc biệt "/>
+  <n key="356" value="Nội dung đặc biệt:&#x000A;    1 người kì lạ đưa cho chúa công 1 vật kỳ lạ cũng không kém。&#x000A;Hiệu quả：&#x000A;    "/>
+  <n key="357" value="Chúa công tìm thấy những vật sau:&#x000A;"/>
+  <n key="358" value="Tim kiếm hoàn thành. Lần này chúa công nhận được {0} kinh nghiệm."/>
+  <n key="359" value="Không tìm thấy Tụ Tiên Các."/>
+  <n key="360" value="Chúa công tìm được thần tiên {0}， nhưng không hiểu sao thần tiên lại đằng vân bay mất. Chúa công nhìn theo tiếc nuối: “Âu cũng là duyên phận“.&#x000A;Nguyên nhân：&#x000A;    "/>
+  <n key="361" value="Nguyên nhân： "/>
+  <n key="362" value="Sau khi xây xong Tụ Tiên Các mới có thể chiêu mộ các thần tiên đã tìm được."/>
+  <n key="363" value="Chúa công tìm được thần tiên {0}， nhưng không hiểu sao thần tiên lại đằng vân bay mất. Chúa công nhìn theo tiếc nuối: “Âu cũng là duyên phận“."/>
+  <n key="364" value="Số liệu cơ bản của Tụ Tiên Các có lỗi."/>
+  <n key="365" value="Không thể nhận được tin tức về cấp độ của Tụ Tiên Các. "/>
+  <n key="366" value="Đẳng cấp Tụ Tiên Các không đủ."/>
+  <n key="367" value="Chúa công đụng độ tiên {0}，lời qua tiếng lại không hạp khẩu liền xông vào múa kiếm.Sau mươi hiệp, chúa công đánh thắng ,và mang được tiên về Tụ Tiên Các。&#x000A;"/>
+  <n key="368" value="chúa công tìm rất lâu nhưng không được gì。&#x000A;"/>
+  <n key="369" value="Thần tiên trong trạm đóng quân Hp hoàn toàn hồi phục。"/>
+  <n key="370" value="Thần tiên trong trạm đóng quân, Hp giảm {0}%."/>
+  <n key="371" value="Thần tiên trong trạm đóng quân, Hp hạ xuống 1 điểm."/>
+  <n key="372" value="Tìm kiếm hoàn thành"/>
+  <n key="373" value="Tu luyện hoàn thành. Thần tiên đã nhận được {0} điểm kinh nghiệm.&#x000A;"/>
+  <n key="374" value="Tu luyện hoàn thành"/>
+  <n key="375" value="Thừa nhận lãnh chúa"/>
+  <n key="376" value="Thừa nhận nô lệ"/>
+  <n key="377" value="Chấp nhận loại hình sự kiện"/>
+  <n key="378" value="Chấp nhận nội dung sự kiện"/>
+  <n key="379" value="Hầu hạ"/>
+  <n key="380" value="Lãnh chúa {0} có việc gấp cần gửi thư cho 1 vị tiên nào đó, nhưng do số ngựa đã dùng hết nên phái nô lệ {1} chuyển thư, thời gian hạn định 30 phút."/>
+  <n key="381" value="Nô bọc của lãnh chúa {0} đã bỏ trốn， mệnh lệnh cho nô lệ {1} trong vòng 30 phút phải bắt được，{2} vội vàng xuất phát，lúc đi còn làm rơi 1 Xu. Thật là một ngày xui xẻo!"/>
+  <n key="382" value="Lãnh chúa {0} do 1 thời gian dài ở bên ngoài tu hành, trong Cung Điện đóng đầy bụi liền ra lệnh cho nô lệ {1} trong 30 phút phải lau chùi sạch sẽ."/>
+  <n key="383" value="An ủi"/>
+  <n key="384" value="Nô lệ {0} ngày ngày vì lãnh chúa {1} làm việc chăm chỉ. Thấy thương xót, đặc biệt {2} đồng ý cho nghỉ 1 ngày."/>
+  <n key="385" value="Nô lệ {0} gần đây thường đàn ca múa hát giúp vui cho lãnh chúa {1}. Lãnh chúa trong lòng vui vẻ liền phê chuẩn cho nghỉ 1 ngày."/>
+  <n key="386" value="Nô lệ {0} ngày ngày bưng trà rót nước đấm bóp hầu hạ，lãnh chúa {1} rất hài lòng，liền {2} đặc biệt tặng thưởng cho 1 vài mỹ nữ."/>
+  <n key="387" value="Ngược đãi"/>
+  <n key="388" value="Lãnh chúa {0} phái nô lệ {1} lập đàn làm phép cầu may, chúc cho nô lệ {2} may mắn ra ngoài không bị ngựa đâm phải!"/>
+  <n key="389" value="Lãnh chúa {0} hôm nay tâm trạng không vui liền dày đọa nô lệ {1} cõng đi chơi một vòng Cung Điện!"/>
+  <n key="390" value="Lãnh chúa {0} có con Khiếu Thiên Khuyển đêm đêm thường sủa không ngừng, nô lệ {1} bị phái đến kiểm tra sức khỏe cho Khiếu Thiên Khuyển. Kiểm tra xong {2} thương tích đầy mình quần áo rách te tua, ảo não quay về thành!"/>
+  <n key="391" value="{0} đã gặp {1}"/>
+  <n key="392" value="Nô lệ xui xẻo：&#x000A; Lãnh chủ {0} đã tiến hành {1} với chúa công.Nội dung: &#x000A;{2}&#x000A; .Hiện tại thành {3} oán giận lên đến {4} .Thành vẫn bị nô dịch, chúa công hãy tiếp tục hoàn thành nhiệm vụ nô lệ và nhanh chóng thoát khỏi vận mệnh nô lệ này,cố lên"/>
+  <n key="393" value="Trong Dẫn Tiên Đài có 1 tỉ lệ nhất định có thể chiêu mộ {0}."/>
+  <n key="394" value="Thần tiên tại trạm đóng quân lòng trung thành giảm {0} điểm. Mau mau ban thưởng nếu như còn muốn giữ tướng tài này."/>
+
+
+  <!-- MapManager.cs -->
+  <n key="395" value="Tự động trở về khu đóng quân của lãnh chúa thất bại."/>
+  <n key="396" value="Sau khi bị nô dịch {0} giờ， nô lệ sẽ tự động được phóng thích."/>
+  <n key="397" value="Phóng thích nô lệ."/>
+  <n key="398" value="Sau khi bị nô dịch {0} giờ， hệ thống sẽ tự động phóng thích lệnh nô lệ."/>
+  <n key="399" value="Được sự ủng hộ của bá tánh, nô lệ {0} hiện tại đã không còn trong sự khống chế của chúa công. Nếu như chúa công vẫn muốn nô dịch lại, thì hãy chuẩn bị một kế hoạch quân sự tầm cỡ và tấn công lại lần nữa."/>
+  <n key="400" value="Nhờ ý chí kiên cường và sự nỗ lực không ngừng, chúa công đã lại đứng trên mảnh đất Trác Lộc giàu đẹp."/>
+  <n key="401" value="Thành Trì "/>
+  <n key="402" value="Bình Địa "/>
+  <n key="403" value="Rừng Sâu "/>
+  <n key="404" value="Thảo Nguyên  "/>
+  <n key="405" value="Đồi Núi"/>
+  <n key="406" value="Hồ Nước "/>
+  <n key="407" value="Sơn Địa "/>
+  <n key="408" value="Đầm Lầy "/>
+  <n key="409" value="Tiên Cảnh "/>
+
+
+  <!-- PlayerManager.cs -->
+  <n key="410" value="Cấm ngôn vĩnh viễn."/>
+  <n key="411" value="Thời gian cấm ngôn vẫn còn."/>
+  <n key="412" value="Thời gian không cấm ngôn vẫn còn."/>
+  <n key="413" value="Trong hòm đồ không có vật phẩm này."/>
+  <n key="414" value="Số lượng vật phẩm trong hòm đồ không đủ."/>
+  <n key="415" value="Trong hòm đồ không có chìa khóa tương ứng để mở."/>
+  <n key="416" value="Hôm nay chúa công đã mua đến mức cho phép. Hẹn gặp quý khách vào ngày mai."/>
+  <n key="417" value="Giữa 2 lần sử dụng buộc phải cách nhau {0} giờ."/>
+  <n key="418" value="Trong hòm đồ không có trang bị này."/>
+  <n key="419" value="Vật phẩm vô hiệu."/>
+  <n key="420" value="Trang bị vô hiệu."/>
+  <n key="421" value="Trang bị sử dụng cùng 1 mục đích đã tồn tại."/>
+  <n key="422" value="Giữa 2 lần sử dụng buộc phải cách nhau {0} giờ."/>
+
+
+  <!-- ArmyRequestDealer.cs -->
+  <n key="423" value="Đội quân không tồn tại."/>
+  <n key="424" value="Không thể thao túng quân đội của người khác."/>
+  <n key="425" value="Không thể triệu hồi quân đội đang trong quá trình tập trung."/>
+  <n key="426" value="Không thể triệu hồi quân đội đang trong quá trình do thám."/>
+  <n key="427" value="Không thể triệu hồi quân đội đang trong quá trình tìm kiếm."/>
+  <n key="428" value="Không thể triệu hồi quân đội đang trong quá trình tu luyện."/>
+  <n key="429" value="Không thể triệu hồi đội quân đang trong quá trình tìm kiếm."/>
+  <n key="430" value="Chỉ có thể triệu hồi đội quân đang xuất chinh hoặc phòng thủ."/>
+  <n key="431" value="Trong trạng thái nghỉ ngơi không thể do thám."/>
+  <n key="432" value="Thành trì bị phong ấn không thể do thám bên ngoài."/>
+  <n key="433" value="Thám Doanh không tồn tại."/>
+  <n key="434" value="Danh sách đội kỵ binh do thám đã đầy."/>
+  <n key="435" value="Tọa độ mục tiêu vô hiệu."/>
+  <n key="436" value="Thành trì không tồn tại."/>
+  <n key="437" value="Trong trạng thái nghỉ ngơi không thể vận chuyển."/>
+  <n key="438" value="Thành trì bị phong ấn không thể vận chuyển ra bên ngoài."/>
+  <n key="439" value="Chuồng Ngụa không tồn tại."/>
+  <n key="440" value="Danh sách thương đội đã đầy."/>
+  <n key="441" value="Bắt buộc phải xếp các tài nguyên vận chuyển."/>
+  <n key="442" value="Số lượng tài nguyên vận chuyển vô hiệu."/>
+  <n key="443" value="Tổng số tài nguyên vận chuyển vượt quá mức cho phép."/>
+  <n key="444" value="Thời gian trong Binh Doanh vô hiệu"/>
+  <n key="445" value="Quan Chức phải đạt đến Thượng Đại Phu mới có thể tiến hành vận chuyển tới thành trì của quân chủ khác."/>
+  <n key="446" value="Cần điều phái ít nhất 1 loại binh sĩ."/>
+  <n key="447" value="Loại binh chủng được chỉ định vô hiệu."/>
+  <n key="448" value="Điều binh vẫn chưa chỉ định số lượng."/>
+  <n key="449" value="Tổng số điều binh vượt quá mức cho phép."/>
+  <n key="450" value="Trong trạng thái nghỉ ngơi không thể điều binh."/>
+  <n key="451" value="Thành trì bị phong ấn không thể điều binh ra bên ngoài."/>
+  <n key="452" value="Thao Trường không tồn tại."/>
+  <n key="453" value="Cấp của Thao Trường không đủ để điều thêm đội quân xuất chinh."/>
+  <n key="454" value="Tài nguyên mang theo vô hiệu."/>
+  <n key="455" value="Thời gian trong Binh Doanh vô hiệu"/>
+  <n key="456" value="Phái đi ít nhất 1 thần tiên."/>
+  <n key="457" value="Thần tiên {0} không thể thống lĩnh loại binh chủng này."/>
+  <n key="458" value="Thần tiên {0} vẫn chưa được chiêu mộ."/>
+  <n key="459" value="Thần tiên {0} bị chỉ định trùng lặp."/>
+  <n key="460" value="Thần tiên {0} không ở trong trạng thái rảnh rỗi."/>
+  <n key="461" value="Thần tiên {0} vẫn chưa được giao binh lực."/>
+  <n key="462" value="Thần tiên {0} năng lực thống soái chưa thâm sâu, chỉ có thể mang theo {1} quân."/>
+  <n key="463" value="Thần tiên {0} sức khỏe quá yếu, không thể xuất chinh. Hãy mau trị liệu!"/>
+  <n key="464" value="Tổng số dân đem theo vượt quá mức cho phép."/>
+  <n key="465" value="Trong trạng thái nghỉ ngơi không thể phái quân."/>
+  <n key="466" value="Thành trì bị phong ấn không thể phái quân bên ngoà.i"/>
+  <n key="467" value="Cấp của Thao Trường không đủ để điều thêm đội quân xuất chinh."/>
+  <n key="468" value="Danh Thành không thể tiến hành phái đi."/>
+  <n key="469" value="Trong trạng thái nghỉ ngơi không thể cướp đoạt."/>
+  <n key="470" value="Thành bị phong ấn không thể xuất chinh cướp đoạt."/>
+  <n key="471" value="Thao Trường không tồn tại."/>
+  <n key="472" value="Cấp của Thao Trường không đủ để điều thêm đội quân xuất chinh."/>
+  <n key="473" value="Trong trạng thái nghỉ ngơi không thể xuất chinh."/>
+  <n key="474" value="Thành bị phong ấn không thể xuất chinh chiếm lĩnh."/>
+  <n key="475" value="Số lượng thành chúa công có đã đạt mức cao nhất đồng thời không còn phân thành để phong ấn, nên không thể xuất chinh chiếm lĩnh Danh Thành. Chúa công có thể thông qua việc nâng cấp Quan Chức để tăng thêm số lượng phân thành cho phép sở hữu."/>
+  <n key="476" value="Thành bị phong ấn không thể xuất chinh chiếm lĩnh."/>
+  <n key="477" value="Thành trì cần phong ấn không tồn tại."/>
+  <n key="478" value="Chủ thành không thể bị phong ấn."/>
+  <n key="479" value="Danh thành không thể bị phong ấn."/>
+  <n key="480" value="Thành này đã bị phong ấn."/>
+  <n key="481" value="Trong trạng thái nghỉ ngơi không thể vùng lên khởi nghĩa."/>
+  <n key="482" value="Ngày hôm nay chúa công đã phát động 1 lần khởi nghĩa, lãnh chúa vô cùng tức giận và cảnh cáo chúa công, nhưng đã phóng lao thì theo lao, không thể từ bỏ khởi nghĩa."/>
+  <n key="483" value="Trong trạng thái nghỉ ngơi không thể phái đi đóng quân."/>
+  <n key="484" value="Đội quân này không tồn tại"/>
+  <n key="485" value="Chúa công không có quyền khống chế khu vực đóng quân này."/>
+  <n key="486" value="Đội quân đang chiến đấu không thể phái đi."/>
+  <n key="487" value="Đội quân này đã rời khỏi khu vực đóng quân."/>
+  <n key="488" value="Trong trạng thái nghỉ ngơi không thể do thám Tiên Sơn Phúc Địa."/>
+  <n key="489" value="Thành trì bị phong ấn không thể do thám Tiên Sơn Phúc Địa."/>
+  <n key="490" value="Tiên Sơn Phúc Địa này không tồn tại."/>
+  <n key="491" value="Chúa công đã phái 1 đội quân do thám vùng Tiên Sơn Phúc Địa này."/>
+  <n key="492" value="Vùng Tiên Sơn Phúc Địa này hôm nay đã do thám rồi."/>
+  <n key="493" value="Chúa công không có đội quân nào đang do thám vùng Tiên Sơn Phúc Địa này."/>
+  <n key="494" value="Đội quân chúa công phái đến vùng Tiên Sơn Phúc Địa vẫn chưa đến nơi."/>
+  <n key="495" value="Tầng chúa công muốn vào không tồn tại."/>
+  <n key="496" value="Đội quân chúa công phái đến vùng Tiên Sơn Phúc Địa hiện đang khiêu chiến."/>
+  <n key="497" value="Tầng này vẫn chưa do thám, chúa công cần phải khiêu chiến thành công ở tầng này mới có thể tiến lên tầng tiếp theo."/>
+  <n key="498" value="Tầng muốn khiêu chiến không tồn tại."/>
+  <n key="499" value="Tầng này không thể chiến đấu cũng không thể khiêu chiến."/>
+  <n key="500" value="Chỉ có thể khiêu chiến ở tầng chúa công đang đứng."/>
+  <n key="501" value="chúa công đã khiêu chiến thành công ở tầng này,không thể khiêu chiến lần nữa."/>
+  <n key="502" value="Trong trạng thái nghỉ ngơi không thể do thám."/>
+  <n key="503" value="Nhận tin tức về đất hoang thất bại."/>
+  <n key="504" value="Chúa công không thể sở hữu cùng vùng đất hoang này."/>
+  <n key="505" value="Không thể do thám vùng đất hoang không có quân đội đóng quân"/>
+  <n key="506" value="Vùng đất hoang từ cấp 3 trở lên mới có thể do thám."/>
+  <n key="507" value="Trong vùng đất hoang này đang có đội quân do thám, không thể do thám cùng một nơi."/>
+  <n key="508" value="Trong vùng đất hoang này đã có đội quân đang tìm kiếm, không thể do thám."/>
+  <n key="509" value="Trong vùng đất hoang này đã có đội quân đang tập trung, không thể do thám."/>
+  <n key="510" value="Trong vùng đất hoang này đã có đội quân đang tu luyện, không thể do thám."/>
+  <n key="511" value="Vùng đất hoang đang tập trung có trạng thái lạ thường."/>
+  <n key="512" value="Do thám vùng đất hoang thất bại."/>
+  <n key="513" value="Trong trạng thái nghỉ ngơi không thể hủy do thám."/>
+  <n key="514" value="Không thể hủy việc do thám vùng đất hoang không có quân đội đóng quân."/>
+  <n key="515" value="Trong trạng thái nghỉ ngơi không thể tìm kiếm."/>
+  <n key="516" value="Chỉ có thể tìm kiếm ở vùng đất hoang cấp 2 trở lên."/>
+  <n key="517" value="Trong vùng đất hoang này đã có đội quân do thám, không thể tìm kiếm."/>
+  <n key="518" value="Trong vùng đất hoang này đang có đội quân tìm kiếm, không thể cùng lúc tìm kiếm."/>
+  <n key="519" value="Trong vùng đất hoang này đã có đội quân tu luyện, không thể tìm kiếm."/>
+  <n key="520" value="Trong vùng đất hoang này đã có đội quân đóng quân, không thể tìm kiếm."/>
+  <n key="521" value="Vùng đất hoang đang tìm kiếm có trạng thái lạ thường."/>
+  <n key="522" value="Tìm kiếm ở vùng đất hoang thất bại."/>
+  <n key="523" value="Trong trạng thái nghỉ ngơi không thể hủy việc tìm kiếm."/>
+  <n key="524" value="Không thể hủy việc tìm kiếm vùng đất hoang không có quân đội đóng quân."/>
+  <n key="525" value="Trong trạng thái nghỉ ngơi không thể tu luyện."/>
+  <n key="526" value="Nhận tin tức vùng tiên cảnh thất bại."/>
+  <n key="527" value="Đây là vùng tiên cảnh, không ai được sở hữu."/>
+  <n key="528" value="Không có thần tiên đóng quân, không thể tu luyện."/>
+  <n key="529" value="Không thể tu luyện ở ngoài vùng tiên cảnh."/>
+  <n key="530" value="Trong vùng tiên cảnh này có quân đội đang do thám, không thể tu luyện."/>
+  <n key="531" value="Trong vùng tiên cảnh này có quân đội đang tìm kiếm, không thể tu luyện."/>
+  <n key="532" value="Trong vùng tiên cảnh này đã có quân đội tu luyện, không thể tu luyện cùng một nơi."/>
+  <n key="533" value="Trong vùng tiên cảnh này có quân đội tập đóng quân, không thể tu luyện."/>
+  <n key="534" value="Vùng tiên cảnh tu luyện có trạng thái lạ thường."/>
+  <n key="535" value="Tu luyện trong vùng tiên cảnh thất bại."/>
+  <n key="536" value="Trong trạng thái nghỉ ngơi không thể hủy tu luyện."/>
+  <n key="537" value="Không có thần tiên đang tu luyện, không thể hủy."/>
+
+
+  <!-- BuildRequestDealer.cs -->
+  <n key="538" value="Trong trạng thái nghỉ ngơi không thể tiến hành nâng cấp/xây dựng kiến trúc"/>
+  <n key="539" value="Thành bị phong ấn không thể tiến hành nâng cấp/xây dựng kiến trúc."/>
+  <n key="540" value="Vị trí vô hiệu"/>
+  <n key="541" value="Danh sách đã đầy."/>
+  <n key="542" value="Danh sách kiến trúc đang xây dựng đã đầy, chúa công có thể sử dụng Cáo Thị Tuyển Dụng để tăng thêm."/>
+  <n key="543" value="Danh sách kiến trúc đang xây dựng đã đầy."/>
+  <n key="544" value="Trạng thái vô hiệu."/>
+  <n key="545" value="Kiến trúc vô hiệu."/>
+  <n key="546" value="Danh thành không thể nâng cấp/xây dựng Hội Minh Đàn"/>
+  <n key="547" value="Trong lúc hạ cấp Cung Điện vị trí này không thể xây dựng."/>
+  <n key="548" value="Vị trí này đã có kiến trúc khác."/>
+  <n key="549" value="Thành trì không tồn tại."/>
+  <n key="550" value="Thành bị phong ấn không thể hủy nâng cấp kiến trúc."/>
+  <n key="551" value="Kiến trúc không tồn tại."/>
+  <n key="552" value="Trong trạng thái nghỉ ngơi không thể tiến hành hạ cấp kiến trúc."/>
+  <n key="553" value="Thành trì bị phong ấn không thể tiến hành hạ cấp kiến trúc."/>
+  <n key="554" value="Khu vực tài nguyên của cấp cung điện này đang trong quá trình xản xuất."/>
+  <n key="555" value="Cung Điện cần có cấp thấp nhất là 1."/>
+  <n key="556" value="Không thể phá hủy Cung Điện."/>
+  <n key="557" value="Kiến trúc này đã bị hạ cấp."/>
+  <n key="558" value="Thành thủ đang xây dựng."/>
+  <n key="559" value="Tiên thuật đang nghiên cứu."/>
+  <n key="560" value="Binh sĩ đang huấn luyện."/>
+  <n key="561" value="Quân đội đang đóng quân."/>
+  <n key="562" value="Thương đội đang giao dịch."/>
+  <n key="563" value="Thành trì bị phong ấn không thể tiến hành hạ cấp kiến trúc."/>
+  <n key="564" value="Kiến trúc nâng cấp không tồn tại."/>
+  <n key="565" value="Tiên thuật vô hiệu"/>
+  <n key="566" value="Nhà nghiên cứu tiên thuật đã đầy."/>
+  <n key="567" value="Thành trì bị phong ấn không thể hủy nghiên cứu tiên thuật."/>
+  <n key="568" value="Tiên thuật không tồn tại"/>
+  <n key="569" value="Thành trì bị phong ấn không thể tăng tốc nghiên cứu tiên thuật."/>
+  <n key="570" value="Nghiên cứu tiên thuật không tồn tại."/>
+  <n key="571" value="Trong trạng thái nghỉ ngơi không thể tiến hành chiêu mộ quân đội để huấn luyện."/>
+  <n key="572" value="Thành trì bị phong ấn không thể tiến hành chiêu mộ quân đội để huấn luyện."/>
+  <n key="573" value="Binh Doanh không tồn tại."/>
+  <n key="574" value="Binh giới vô hiệu."/>
+  <n key="575" value="Số lượng chiêu mộ vô hiệu."/>
+  <n key="576" value="Số dân rảnh rỗi không đủ."/>
+  <n key="577" value="Số lượng đội binh đang huấn luyện đã đầy."/>
+  <n key="578" value="Thành bị phong ấn không thể hủy chiêu mộ binh giới."/>
+  <n key="579" value="Chiêu mộ binh giới không tồn tại."/>
+  <n key="580" value="Thành trì bị phong ấn không thể tăng tốc chiêu mộ binh giới."/>
+  <n key="581" value="Đội quân đang chiêu mộ chỉ có thể tăng tốc 1 lần."/>
+  <n key="582" value="Trong trạng thái nghỉ ngơi không thể tiến hành giải tán quân đội."/>
+  <n key="583" value="Thành bị phong ấn không thể tiến hành giải tán quân đội."/>
+  <n key="584" value="Số lượng giải tán vô hiệu. Xin hãy nhập lại!"/>
+  <n key="585" value="Số lượng binh sĩ giải tán không đủ."/>
+  <n key="586" value="Thành trì bị phong ấn không thể tiến hành xây dựng thành phòng thủ."/>
+  <n key="587" value="Thành phòng thủ vô hiệu."/>
+  <n key="588" value="Số lượng xây dựng vô hiệu.Xin hãy nhập lại!"/>
+  <n key="589" value="Không gian thành phòng thủ không đủ."/>
+  <n key="590" value="Đội xây dựng thành phòng thủ đã đầy."/>
+  <n key="591" value="Không có tường thành. Hãy mau mau xây!"/>
+  <n key="592" value="Thành bị phong ấn không thể hủy xây dựng thành phòng thủ."/>
+  <n key="593" value="Thành trì xây dựng không tồn tại."/>
+  <n key="594" value="Thành trì không tồn tại."/>
+  <n key="595" value="Trong trạng thái nghỉ ngơi không thể tiến hành hạ cấp thành phòng thủ."/>
+  <n key="596" value="Thành bị phong ấn không thể tiến hành hạ cấp thành phòng thủ."/>
+  <n key="597" value="Hạ cấp số lượng vô hiệu."/>
+  <n key="598" value="Số lượng thành phòng thủ hạ cấp không đủ."/>
+  <n key="599" value="Thành bị phong ấn không thể tiến hành nghiên cứu tiên thuật."/>
+  <n key="600" value="Thành bị phong ấn không thể tiến hành tăng tốc/hạ cấp kiến trúc."/>
+  <n key="601" value="Trong trạng thái nghỉ ngơi không thể tiến hành nghiên cứu tiên thuật."/>
+  <n key="602" value="Trong trạng thái nghỉ ngơi không thể tiến hành xây phòng thủ thành."/>
+
+
+  <!-- ChatRequestDealer.cs -->
+  <n key="603" value="Hiện tại máy chủ đang ngừng việc tán gẫu."/>
+  <n key="604" value="Thời gian cấm ngôn vẫn còn {0}."/>
+  <n key="605" value="Không thể tán gẫu."/>
+  <n key="606" value="Quân chủ không ở trong bang hội nào."/>
+  <n key="607" value="Quân chủ không tồn tại."/>
+  <n key="608" value="Không thể tán gẫu riêng với chính mính."/>
+  <n key="609" value="Thời gian cấm ngôn vẫn còn {0}."/>
+
+
+  <!-- FengShenNetwork.cs -->
+  <n key="610" value="Điều kiện không đủ."/>
+  <n key="611" value="Cung điện"/>
+  <n key="612" value="Tường thành"/>
+  <n key="613" value="Thanh Danh "/>
+  <n key="614" value="Quan Chức "/>
+  <n key="615" value="Tước Vị "/>
+  <n key="616" value="Lòng dân"/>
+  <n key="617" value="Oán giận "/>
+  <n key="618" value="Dân"/>
+  <n key="619" value="Số lượng không đủ"/>
+  <n key="620" value="Đẳng cấp không đủ"/>
+  <n key="621" value="Số lượng khống chế"/>
+  <n key="622" value="Đẳng cấp vô hiệu"/>
+  <n key="623" value="Chưa sử dụng binh phù"/>
+  <n key="624" value="Vô hiệu"/>
+  <n key="625" value="ngày "/>
+  <n key="626" value="giờ "/>
+  <n key="627" value="phút "/>
+  <n key="628" value="giây "/>
+  <n key="629" value="1 giây "/>
+  <n key="630" value="Lập tức "/>
+
+
+  <!-- GeneralRequestDealer.cs -->
+  <n key="631" value="Dẫn Tiên Đài không tồn tại."/>
+  <n key="632" value="Thành trì không tồn tại."/>
+  <n key="633" value="Trong trạng thái nghỉ ngơi không thể xây mới Dẫn Tiên Đài."/>
+  <n key="634" value="Thành bị phong ấn không thể xây mới Dẫn Tiên Đài."/>
+  <n key="635" value="Dẫn Tiên Đài không tồn tại."/>
+  <n key="636" value="Trong trạng thái nghỉ ngơi không thể chiêu mộ thần tiên."/>
+  <n key="637" value="Thành bị phong ấn không thể chiêu mộ thần tiên.."/>
+  <n key="638" value="Cần phải xây Tụ Tiên Các."/>
+  <n key="639" value="Tụ Tiên Các được xây hoàn tất mới có thể chiêu mộ."/>
+  <n key="640" value="Số liệu cơ bản của Tụ Tiên Các có lỗi."/>
+  <n key="641" value="Không thể nhận được tin tức về cấp độ của Tụ Tiên Các. "/>
+  <n key="642" value="Đẳng cấp Tụ Tiên Các không đủ."/>
+  <n key="643" value="Thần tiên này đã bị bắt làm tù binh, không thể chiêu mộ chỉ có thể chiêu hàng."/>
+  <n key="644" value="Thần tiên này đã bị chiêu mộ."/>
+  <n key="645" value="Thần tiên này đã rời khỏi Dẫn Tiên Đài, tìm hướng phát triển khác.Thật đáng tiếc!"/>
+  <n key="646" value="Trạng thái của thần tiên có lỗi, không thể chiêu mộ"/>
+  <n key="647" value="Số vàng hiện tại của chúa công không đủ để chiêu mộ thần tiên này."/>
+  <n key="648" value="Chúc mừng chúa công {0} đã chiêu mộ được danh tiên {1} ở Dẫn Tiên Đài."/>
+  <n key="649" value="Không thể đưa thần tiên này vào Tụ Tiên Các."/>
+  <n key="650" value="Không thể đưa thần tiên này ra khỏi Dẫn Tiên Đài"/>
+  <n key="651" value="Trong trạng thái nghỉ ngơi không thể chiêu hàng thần tiên"/>
+  <n key="652" value="Thành trì bị phong ấn không thể chiêu hàng thần tiên"/>
+  <n key="653" value="Dẫn Tiên Đài không tồn tại."/>
+  <n key="654" value="Cần phải xây Tụ Tiên Các."/>
+  <n key="655" value="Tụ Tiên Các được xây hoàn tất mới có thể chiêu mộ."/>
+  <n key="656" value="Không thể nhận được tin tức về cấp độ của Tụ Tiên Các. "/>
+  <n key="657" value="Đẳng cấp Tụ Tiên Các không đủ."/>
+  <n key="658" value="Thần tiên này đang trong Dẫn Tiên Đài,không thể chiêu hàng, chỉ có thể chiêu mộ."/>
+  <n key="659" value="Thần tiên đã được chiêu mộ."/>
+  <n key="660" value="Thần tiên này đã được phóng thích và đi rất xa rồi."/>
+  <n key="661" value="Trạng thái của thần tiên có lỗi, không thể bị chiêu mộ."/>
+  <n key="662" value="Số vàng của chúa công không đủ để chiêu mộ thần tiên."/>
+  <n key="663" value="Không thể đưa thần tiên này vào Tụ Tiên Các."/>
+  <n key="664" value="Không thể đưa thần tiên này ra khỏi Dẫn Tiên Đài"/>
+  <n key="665" value="Trong trạng thái nghỉ ngơi không thể đuổi thần tiên."/>
+  <n key="666" value="Thành bị phong ấn không thể đuổi thần tiên."/>
+  <n key="667" value="Tụ Tiên Các không tồn tại."/>
+  <n key="668" value="Thần tiên này chúa công vẫn chưa chiêu mộ được, không thể đuổi."/>
+  <n key="669" value="Thần tiên đang rảnh rỗi mới có thể bị đuổi."/>
+  <n key="670" value="Thần tiên này nắm trong tay binh quyền, không thể dễ dàng đuổi đi."/>
+  <n key="671" value="Không thể sa thải bản thân."/>
+  <n key="672" value="Không thể đưa thần tiên này ra khỏi Tụ Tiên Các."/>
+  <n key="673" value="Trong trạng thái nghỉ ngơi không thể phóng thích hoặc bắt tù binh."/>
+  <n key="674" value="Thành bị phong ấn không thể phóng thích hoặc bắt tù binh."/>
+  <n key="675" value="Tụ Tiên Các không tồn tại."/>
+  <n key="676" value="Thần tiên này không bị chúa công bắt làm tù binh, không thể phóng thích."/>
+  <n key="677" value="Trạng thái thần tiên có lỗi, không thể phóng thích."/>
+  <n key="678" value="Trong trạng thái nghỉ ngơi không thể bổ nhiệm Thái Thú."/>
+  <n key="679" value="Thành bị phong ấn không thể bổ nhiệm Thái Thú."/>
+  <n key="680" value="Thái thú không tồn tại, không thể giải trừ."/>
+  <n key="681" value="Thần tiên đang chiến đấu không thể giáng chức Thái Thú."/>
+  <n key="682" value="Thần tiên này chưa chiêu mộ, không thể bổ nhiệm thành Thái Thú."/>
+  <n key="683" value="Thần tiên đang rảnh rỗi mới có thể phong chức Thái Thú"/>
+  <n key="684" value="Thần tiên đang chiến đấu không thể giáng chức Thái Thú."/>
+  <n key="685" value="Trong trạng thái nghỉ ngơi,không thể đổi tên thần tiên."/>
+  <n key="686" value="Trong trạng thái nghỉ ngơi thần tiên không thể trở về trạng thái ban đầu."/>
+  <n key="687" value="Thành trì bị phong ấn, thần tiên không thể trở về trạng thái ban đầu."/>
+  <n key="688" value="Thần tiên không tồn tại."/>
+  <n key="689" value="Thần tiên không rảnh rỗi hoặc Thái Thú đang trong lúc chiến đấu không thể trở về trạng thái ban đầu."/>
+  <n key="690" value="Trong trạng thái nghỉ ngơi thần tiên không thể trở về trạng thái ban đầu."/>
+  <n key="691" value="Thành bị phong ấn, thần tiên không thể trở về trạng thái ban đầu."/>
+  <n key="692" value="Thần tiên không rảnh rỗi hoặc Thái Thú đang chiến đấu không thể trở về trạng thái ban đầu."/>
+  <n key="693" value="Thần tiên này không thể trở về trạng thái ban đầu."/>
+  <n key="694" value="Trong trạng thái nghỉ ngơi không thể phân phối điểm tiềm năng thần tiên."/>
+  <n key="695" value="Thành bị phong ấn không thể phân phối tiềm năng cho thần tiên."/>
+  <n key="696" value="Thần tiên không rảnh rỗi hoặc đang chiến đấu không thể phân phối điểm tiềm năng."/>
+  <n key="697" value="Điểm tăng thêm không thể nhỏ hơn 0."/>
+  <n key="698" value="Điểm tiềm năng của thần tiên không đủ."/>
+  <n key="699" value="Trong trạng thái nghỉ ngơi không thể sử dụng đạo cụ."/>
+  <n key="700" value="Thành bị phong ấn không thể sử dụng đạo cụ."/>
+  <n key="701" value="Vật phẩm không tồn tại."/>
+  <n key="702" value="Không thể sử dụng ở đây."/>
+  <n key="703" value="Hp đã đầy ,không cần sử dụng."/>
+  <n key="704" value="Pháp lực đã đầy,không cần sử dụng."/>
+  <n key="705" value="Đẳng cấp đã ở mức cao nhất, không cần sử dụng."/>
+  <n key="706" value="Trong trạng thái nghỉ ngơi không thể ban thưởng cho thần tiên."/>
+  <n key="707" value="Thành bị phong ấn không thể ban thưởng cho thần tiên."/>
+  <n key="708" value="Thần tiên đang không rảnh rỗi hoặc chiến đấu không thể được ban thưởng."/>
+  <n key="709" value="Số lượng vàng không đủ."/>
+  <n key="710" value="Vật phẩm không tồn tại."/>
+  <n key="711" value="Không thể dùng để ban thưởng."/>
+  <n key="712" value="Trong trạng thái nghỉ ngơi nên thần tiên không thể phối binh."/>
+  <n key="713" value="Thành bị phong ấn nên thần tiên không thể phối binh."/>
+  <n key="714" value="Số lượng phối binh không thể nhỏ hơn 0."/>
+  <n key="715" value="Thành bị phong ấn không thể đổi tên thần tiên."/>
+  <n key="716" value="Thần tiên vẫn chưa chiêu mộ."/>
+  <n key="717" value="Danh tiên không thể đổi tên."/>
+  <n key="718" value="Không thể thông qua đổi tên thần tiên để đổi tên quân chủ."/>
+  <n key="719" value="Tên thần tiên không thể để trống."/>
+  <n key="720" value="Tên thần tiên không thể nhiều hơn 5 từ."/>
+  <n key="721" value="Tên thần tiên có ký tự không cho phép."/>
+  <n key="722" value="Trong trạng thái nghỉ ngơi thần tiên không thể thăng cấp."/>
+  <n key="723" value="Thần tiên không rảnh rỗi hoặc đang chiến đấu không thể thăng cấp."/>
+  <n key="724" value="Thần tiên đã đạt cấp cao nhất."/>
+  <n key="725" value="Điểm kinh nghiệm để thăng cấp không đủ."/>
+  <n key="726" value="Trong trạng thái nghỉ ngơi không thể tẩy điểm cho thần tiên."/>
+  <n key="727" value="Thành bị phong ấn không thể tẩy điểm cho thần tiên."/>
+  <n key="728" value="Thần tiên vẫn chưa chiêu mộ."/>
+  <n key="729" value="Thần tiên đang không rảnh rỗi hoặc đang chiến đấu không thể tẩy điểm."/>
+  <n key="730" value="Thần tiên đang không rảnh rỗi hoặc đang chiến đấu không thể phối binh."/>
+  <n key="731" value="Binh lực không đủ."/>
+  <n key="732" value="Trong trạng thái nghỉ ngơi không thể trang bị cho thần tiên."/>
+  <n key="733" value="Thành bị phong ấn không thể trang bị cho thần tiên."/>
+  <n key="734" value="Thần tiên đang không rảnh rỗi hoặc Thái Thú đang chiến đấu không thể trang bị."/>
+  <n key="735" value="Trang bị không tồn tạ.i"/>
+  <n key="736" value="Thần tiên phải đạt cấp {0} mới có thể trang bị vật phẩm."/>
+  <n key="737" value="Không thể trang bị đạo cụ hoặc pháp bảo của giới chức khác."/>
+  <n key="738" value="Trong trạng thái nghỉ ngơi không thể tháo bỏ trang bị của thần tiên."/>
+  <n key="739" value="Thành bị phong ấn không thể tháo trang bị của thần tiên."/>
+  <n key="740" value="Thần tiên đang không rảnh rỗi hoặc Thái Thú đang chiến đấu không thể tháo trang bị."/>
+  <n key="741" value="Lỗ được chỉ định không tồn tại."/>
+  <n key="742" value="Trong trạng thái nghỉ ngơi không thể khảm nạm trang bị."/>
+  <n key="743" value="Lỗ khảm nạm thứ nhất không thể sử dụng."/>
+  <n key="744" value="Lỗ khảm nạm thứ hai không thể sử dụng."/>
+  <n key="745" value="Lỗ khảm nạm thứ ba không thể sử dụng."/>
+  <n key="746" value="Cần phải khảm nạm ít nhất 1 bảo thạch."/>
+  <n key="747" value="Bảo thạch {0} để khảm nạm ở lỗ thứ nhất không tồn tại."/>
+  <n key="748" value="{0} để khảm nạm ở lỗ thứ nhất không phải là bảo thạch."/>
+  <n key="749" value="Bảo thạch {0} khảm nạm ở lỗ thứ nhất không thích hợp với vị trí này."/>
+  <n key="750" value="Bảo thạch {0} để khảm nạm ở lỗ thứ hai không tồn tại."/>
+  <n key="751" value="{0} để khảm nạm ở lỗ thứ hai không phải là bảo thạch."/>
+  <n key="752" value="Bảo thạch {0} khảm nạm ở lỗ thứ hai không thích hợp với vị trí này."/>
+  <n key="753" value="Bảo thạch {0} để khảm nạm ở lỗ thứ nhất không tồn tại."/>
+  <n key="754" value="{0} để khảm nạm ở lỗ thứ ba không phải là bảo thạch."/>
+  <n key="755" value="Bảo thạch {0} khảm nạm ở lỗ thứ nhất không thích hợp với vị trí này."/>
+  <n key="756" value="Trong hòm đồ không tồn tại {0}."/>
+  <n key="757" value="Phù 1 có số mã là {0} không tồn tại."/>
+  <n key="758" value="Phù 2 có số mã là {0} không tồn tại."/>
+  <n key="759" value="Trong kì nghỉ không thể tu sửa trang bị."/>
+  <n key="760" value="Thành bị phong ấn không thể tu sửa trang bị."/>
+  <n key="761" value="Thần tiên không rảnh rỗi hoặc Thái Thú đang chiến đấu không thể tu sửa trang bị."/>
+  <n key="762" value="Khi độ bền cao nhất của trang bị này bằng 0 thì không thể tu sửa được nữa."/>
+  <n key="763" value="Độ bền của trang bị đã ở mức cao nhất, không cần tu sửa."/>
+  <n key="764" value="Hiện tại số vàng không đủ {0},không thể tu sửa."/>
+  <n key="765" value="Trong kì nghỉ không thể tu sửa trang bị."/>
+  <n key="766" value="Thành bị phong ấn không thể tu sửa trang bị."/>
+  <n key="767" value="Thần tiên không rảnh rỗi hoặc Thái Thú đang chiến đấu không thể tu sửa trang bị."/>
+  <n key="768" value="Thần tiên này không có trang bị nào cần tu sửa."/>
+  <n key="769" value="Trong trạng thái nghỉ ngơi không thể tu sửa trang bị"/>
+  <n key="770" value="Thành bị phong ấn không thể tu sửa trang bị."/>
+  <n key="771" value="Thần tiên vẫn chưa chiêu mộ."/>
+  <n key="772" value="Thần tiên không rảnh rỗi hoặc thái thú đang chiến đấu không thể tu sửa trang bị."/>
+  <n key="773" value="Trang bị đã có độ bền cao nhất, cần tu sửa."/>
+  <n key="774" value="Số Xu của chúa công không đủ {0}, không thể tu sửa."/>
+  <n key="775" value="Trong trạng thái nghỉ ngơi không thể tu sửa trang bị"/>
+  <n key="776" value="Thành bị phong ấn không thể tu sửa trang bị."/>
+  <n key="777" value="Thần tiên không rảnh rỗi hoặc thái thú đang chiến đấu không thể tu sửa trang bị."/>
+  <n key="778" value="Thần tiên này không có trang bị nào cần tu sửa."/>
+  <n key="779" value="Trong trạng thái nghỉ ngơi không thể khảm nạm trang bị."/>
+  <n key="780" value="Trang bị này không thể chế tạo."/>
+  <n key="781" value="Trang bị này đã đạt cấp cao nhất."/>
+  <n key="782" value="Số lượng vật liệu chế tạo vô hiệu."/>
+  <n key="783" value="Cần phải đưa ra vật liệu chế tạo."/>
+  <n key="784" value="Số lượng vật liệu đưa ra quá nhiều."/>
+  <n key="785" value="Vật liệu có mã số là {0} không tồn tại."/>
+  <n key="786" value="Trong hòm đồ số lượng {0} không đủ."/>
+  <n key="787" value="Chúc mừng quân chủ {0} đã nâng cấp {1} đến cấp {2}"/>
+  <n key="788" value="Thật là tinh xảo！Chúc mừng quân chủ {0} đã chế tạo {1} đến cấp {2},phẩm chất của trang bị đạt bước nhảy vọt."/>
+  <n key="789" value="Đúng là vật phẩm quý, người người thèm muốn！Chúc mừng quân chủ {0} đã chế tạo {1} đến cấp {2}, phẩm chất của trang bị biến tranh hoàn mỹ vô địch."/>
+
+
+  <!-- GmRequestDealer.cs -->
+  <n key="790" value="Cách thức thời gian không đúng."/>
+  <n key="791" value="Nội dung công cáo không thể để trống."/>
+  <n key="792" value="Gửi công cáo thất bại."/>
+  <n key="793" value="Quyền hạn GM không đủ, GM cấp {0} trở lên mới có thể thao tác."/>
+  <n key="794" value="Công cáo không tồn tại."/>
+  <n key="795" value="Không thể tán gẫu."/>
+  <n key="796" value="Tên của quân chủ không thể để trống."/>
+  <n key="797" value="Thời gian cấm chat vô hiệu."/>
+  <n key="798" value="Quân chủ không tồn tại hoặc không có trên mạng."/>
+  <n key="799" value="Quân chủ không có trên mạng."/>
+  <n key="800" value="Quân chủ không tồn tại."/>
+  <n key="801" value="Vật phẩm cần tặng không tồn tại."/>
+  <n key="802" value="Không thể trực tiếp ban thưởng cho thần tiên trang bị."/>
+  <n key="803" value="Số lượng tặng vô hiệu."/>
+  <n key="804" value="Tên quân chủ không tồn tại hoặc chưa nhập vào."/>
+  <n key="805" value="Đội quân không tồn tại."/>
+  <n key="806" value="Quân đội đang trên đường trở về, không thể triệu hồi."/>
+  <n key="807" value="Không thể triệu hồi quân đội đang trong quá trình tập trung."/>
+  <n key="808" value="Không thể triệu hồi quân đội đang trong quá trình do thám."/>
+  <n key="809" value="Không thể triệu hồi quân đội đang trong quá trình tìm kiếm."/>
+  <n key="810" value="Không thể triệu hồi quân đội đang trong quá trình tu luyện."/>
+  <n key="811" value="Không thể triệu hồi đội quân đang trong quá trình tìm kiếm."/>
+  <n key="812" value="Chỉ có thể triệu hồi đội quân đang xuất chinh hoặc phòng thủ."/>
+  <n key="813" value="Quân chủ không tồn tạ.i"/>
+  <n key="814" value="Thần tiên không tồn tại."/>
+  <n key="815" value="Hiện tại chỉ có thể triệu hồi thần tiên đang trong trạng thái xuất chinh."/>
+
+
+  <!-- LoginRequestDealer.cs -->
+  <n key="816" value="Tên tài khoản có ký tự không cho phép"/>
+  <n key="817" value="Số người kết nối với máy chủ đã đầy, xin hãy chờ 1 chút và đăng nhập lại."/>
+  <n key="818" value="Lân đăng nhập này do yếu tố an toàn đã bị ngừng. Xin hãy đăng nhập lại"/>
+  <n key="819" value="Tên tài khoản không tồn tại."/>
+  <n key="820" value="Mật mã sai."/>
+  <n key="821" value="Tài khoản đã bị đóng."/>
+  <n key="822" value="Số lượng quân chủ trong thế giới đã đầy, xin hãy đổi sang máy chủ khác."/>
+  <n key="823" value="Hiện nay đẫ ngừng đăng ký tài khoản mới. Xin hãy chọn máy chủ khác."/>
+  <n key="824" value="Đăng nhập lại."/>
+  <n key="825" value="Đăng nhập thất bại."/>
+  <n key="826" value="Tên đăng nhập hoặc mật mã sai."/>
+  <n key="827" value="Đăng nhập thất bại."/>
+  <n key="828" value="Tài khoản đã bị đóng."/>
+  <n key="829" value="Số lượng quân chủ trong thế giới đã đầy, xin hãy đổi sang máy chủ khác."/>
+  <n key="830" value="Lấy tên tài khoản thất bại."/>
+  <n key="831" value="Lấy tên quân chủ thất bại."/>
+  <n key="832" value="Số liệu không thích hợp,xin hãy mở trang đăng nhập và tiến hành các thao tác thích hợp."/>
+  <n key="833" value="Số liệu không thích hợp, xin hãy bảo đảm chúa công đã nhập đúng số liệu tại trang chủ."/>
+  <n key="834" value="Tên quân chủ đã được sử dụng."/>
+  <n key="835" value="Không thể lập quân chủ trùng lặp."/>
+  <n key="836" value="Cờ hiệu quá dài ,chỉ cho phép 1 từ."/>
+  <n key="837" value="Tên quân chủ có ký tự không cho phép."/>
+  <n key="838" value="Tên thành có ký tự không cho phép."/>
+  <n key="839" value="Không còn đất trống để xây thành mới."/>
+  <n key="840" value="Máy chủ tự điều phối thần tiên vô hiệu."/>
+  <n key="841" value="Tên thần tiên đã tồn tại."/>
+
+
+  <!-- MallRequestDealer.cs -->
+  <n key="842" value="Trong trạng thái nghỉ ngơi không thể mua vật phẩm."/>
+  <n key="843" value="Vật phẩm không tồn tại."/>
+  <n key="844" value="Số lượng mua vượt quá mức cho phép."/>
+  <n key="845" value="Vật phẩm đã được gửi vào hòm đồ."/>
+  <n key="846" value="Vật phẩm đã bán hết."/>
+  <n key="847" value="Số lượng vật phẩm để bán không đủ."/>
+  <n key="848" value="Số lượng mua vô hiệu."/>
+  <n key="849" value="Giá vật phẩm vô hiệu."/>
+  <n key="850" value="Không thể dùng thẻ quà tặng mua vật phẩm này."/>
+  <n key="851" value="Vật phẩm chỉ có thể mua với số lượng nhất định trong một ngày. Hẹn quý khách vào ngày mai."/>
+  <n key="852" value="Vật phẩm chỉ có thể mua với số lượng nhất định trong một ngày. Hẹn quý khách vào ngày mai."/>
+  <n key="853" value="Xu không đủ"/>
+  <n key="854" value="Thẻ quà tặng không đủ."/>
+  <n key="855" value="Không thể dùng thẻ quà tặng mua vật phẩm này."/>
+  <n key="856" value="Trong trạng thái nghỉ ngơi không thể sử dụng hòm đồ."/>
+  <n key="857" value="Thành bị phong ấn không thể sử dụng hòm đồ."/>
+  <n key="858" value="Vật phẩm này không thể sử dụng."/>
+  <n key="859" value="Vật phẩm này không thể sử dụng trực tiếp."/>
+  <n key="860" value="Xin hãy thông qua rương bảo vật tương ứng để sử dụng."/>
+  <n key="861" value="Do vẫn chưa chỉ định thành trì, không thể sử dụng {0}."/>
+  <n key="862" value="Số đân trong thành khi vượt quá mức nhân khẩu thì không thể sử dụng {0}."/>
+  <n key="863" value="Trong vòng 72 giờ không thể tiếp tục sử dụng {0}, vẫn còn {1}."/>
+  <n key="864" value="Vật phẩm này không thể sử dụng trùng lặp."/>
+  <n key="865" value="{0} mở {1}， đạt được {2}."/>
+  <n key="866" value="{0} mở {1}， đạt được {2} 1 cái."/>
+  <n key="867" value="{0} mở {1}， đạt được danh tiên {2}.Xin chúc mừng chúa tốt được tôi hiền."/>
+  <n key="868" value="Chức năng {0} không thể sử dụng."/>
+  <n key="869" value="Trong trạng thái nghỉ ngơi không thể dời thành."/>
+  <n key="870" value="Thành bị phong ấn không thể di dời."/>
+  <n key="871" value="Thành bị chiếm lĩnh trong vòng 24 giờ không thể di dời."/>
+  <n key="872" value="Có đội quân xuất chinh vẫn chưa quay về."/>
+  <n key="873" value="Danh thành không thể di dời."/>
+  <n key="874" value="Hiện có quân đội đang đóng quân, không thể dời thành."/>
+  <n key="875" value="Hiện có quân đội đang chiến đấu, không thể dời thành."/>
+  <n key="876" value="Vẫn chưa chọn Di Thành Phù."/>
+  <n key="877" value="Thành không tồn tại."/>
+  <n key="878" value="Thế giới này quá đông đúc, không thể di rời thành."/>
+  <n key="879" value="Khu vực này quá đông đúc, không thể di dời thành."/>
+  <n key="880" value="Có đội quân xuất chinh vẫn chưa quay về."/>
+  <n key="881" value="Vẫn chưa chọn Cao Cấp Di Thành Phù."/>
+  <n key="882" value="Vị trí chỉ định không tồn tại."/>
+  <n key="883" value="Thành của chúa công đã ở vị trí này."/>
+  <n key="884" value="Vị trí chỉ định đã bị chiếm lĩnh."/>
+  <n key="885" value="Vị trí chỉ định không thể xây thành."/>
+  <n key="886" value="Tiên Sơn Phúc Địa không thể xây thành."/>
+  <n key="887" value="Tọa độ chỉ định đang chiến đấu, không thể rời thành."/>
+  <n key="888" value="Trong trạng thái nghỉ ngơi không thể bán vật phẩm."/>
+  <n key="889" value="Thành bị phong ấn không thể bán vật phẩm."/>
+  <n key="890" value="Số lượng vật phẩm không đủ."/>
+  <n key="891" value="Số lượng đem bán không tồn tại."/>
+  <n key="892" value="Quan chức đạt đến {0} mới có thể bán vật phẩm."/>
+  <n key="893" value="Cấp của chợ đạt đến cấp {0} mới có thể bán vật phẩm."/>
+  <n key="894" value="Trong trạng thái nghỉ ngơi không thể bán đạo cụ."/>
+  <n key="895" value="Thành bị phong ấn không thể bán đạo cụ."/>
+  <n key="896" value="Trang bị không tồn tạ.i"/>
+  <n key="897" value="Quan chức đạt đến {0} mới có thể bán trang bị."/>
+  <n key="898" value="Cấp của chợ phải đạt đến cấp {0} mới có thể bán trang bị."/>
+  <n key="899" value="Sử dụng Thiên Lý Nhãn Phù thất bại."/>
+  <n key="900" value="Thành trì do thám."/>
+
+
+  <!-- MilitaryRequestDealer.cs -->
+  <n key="901" value="Tọa độ lưu giữ không tồn tại."/>
+  <n key="902" value="Trong trạng thái nghỉ ngơi không thể trị liệu thương binh"/>
+  <n key="903" value="Thành bị phong ấn không thể trị liệu thương binh."/>
+  <n key="904" value="Không có thương binh cần trị liệu"/>
+  <n key="905" value="Cần tiêu tốn{0} vàng để trị liệu thương binh"/>
+  <n key="906" value="Trong trạng thái nghỉ ngơi không thể khuyên nhủ đào binh"/>
+  <n key="907" value="Thành bị phong ấn không thể khuyên nhủ đào binh."/>
+  <n key="908" value="Không có đào binh cần khuyên nhủ"/>
+  <n key="909" value="Cần tiêu tốn {0} vàng để khuyên nhủ đào binh."/>
+  <n key="910" value="Trong trạng thái nghỉ ngơi không thể thiết lập chiến thuật phòng thủ."/>
+  <n key="911" value="Thành bị phong ấn không thể thiết lập chiến thuật phòng thủ."/>
+  <n key="912" value="Loại hình chiến thuật phòng thủ vô hiệu."/>
+  <n key="913" value="Danh sách thần tiên phối binh và danh sách thần tiên phòng thủ không hợp nhất."/>
+  <n key="914" value="Thần tiên này chưa được chiêu mộ."/>
+  <n key="915" value="Thần tiên đang không rảnh rỗi hoặc đang chiến đấu không thể phối binh."/>
+  <n key="916" value="Cần chỉ định binh chủng để phối binh."/>
+  <n key="917" value="Binh chủng phối binh vô hiệu."/>
+  <n key="918" value="Số lượng phối binh phải lớn hơn 0."/>
+  <n key="919" value="Phối binh số lượng không đủ."/>
+  <n key="920" value="Trong trạng thái nghỉ ngơi không thể hồi phục đội quân kỵ binh trinh sát."/>
+  <n key="921" value="Thành bị phong ấn không thể hồi phục đội quân kỵ binh trinh sát."/>
+  <n key="922" value="Thám Doanh không tồn tại."/>
+  <n key="923" value="Không có đội kỵ binh trinh sát cần hồi phục."/>
+  <n key="924" value="Cần tiên tốn {0} vàng để hồi phục đội kỵ binh trinh sát."/>
+  <n key="925" value="Trong trạng thái nghỉ ngơi không thể thiết lập đóng quân."/>
+  <n key="926" value="Thành bị phong ấn không thể thiết lập đóng quân."/>
+  <n key="927" value="Hội Minh Đàn không tồn tại."/>
+  <n key="928" value="Trong trạng thái nghỉ ngơi không thể xây dựng thành trì."/>
+  <n key="929" value="Vị trí chỉ định không tồn tại."/>
+  <n key="930" value="Vị trí chỉ định chưa bị chúa công chiếm lĩnh."/>
+  <n key="931" value="Vị trí chỉ định hiện đang có chiến đấu, không thể xây thành."/>
+  <n key="932" value="Có đội quân hiện đang tu luyện, không thể xây thành."/>
+  <n key="933" value="Có đội quân hiện đang do thám, không thể xây thành."/>
+  <n key="934" value="Có đội quân hiện đang tìm kiếm, không thể xây thành."/>
+  <n key="935" value="Chúa công không thể tham gia hành động xây thành mới, xin hãy phái thần tiên khác đi."/>
+  <n key="936" value="Xây thành cần phải có quân đội đóng quân."/>
+  <n key="937" value="Vị trí này có quá nhiều quân đội đóng quân."/>
+  <n key="938" value="Vùng bình địa này thuộc về thành trì không có quân đội đóng quân."/>
+  <n key="939" value="Không có đủ tài nguyên xây thành."/>
+  <n key="940" value="Tân thành"/>
+  <n key="941" value="Trong trạng thái nghỉ ngơi không thể từ bỏ thành trì."/>
+  <n key="942" value="Thành bị phong ấn không thể từ bỏ."/>
+  <n key="943" value="Thành bị chiếm lĩnh trong vòng 24 giờ không thể từ bỏ."/>
+  <n key="944" value="Không thể từ bỏ thành chính của mình."/>
+  <n key="945" value="Không thể từ bỏ thành này."/>
+  <n key="946" value="Danh thành không thể bị từ bỏ."/>
+  <n key="947" value="Không thể từ bỏ thành đang có quân đội đóng quân."/>
+  <n key="948" value="Không thể từ bỏ thành đang có quân đội chiến đấu."/>
+  <n key="949" value="Trong thời gian chợ đang có giao dịch không thể từ bỏ thành trì."/>
+  <n key="950" value="Trong thời gian đang nghiên cứu tiên thuật không thể từ bỏ thành trì."/>
+  <n key="951" value="Trong trạng thái nghỉ ngơi không thể từ bỏ vùng đất hoang."/>
+  <n key="952" value="Thành bị phong ấn không thể từ bỏ vùng đất hoang."/>
+  <n key="953" value="Không thể từ bỏ vùng đất hoang có quân đội đóng quân."/>
+  <n key="954" value="Trong trạng thái nghỉ ngơi không thể trưng thu nô dịch."/>
+  <n key="955" value="Thành này không phải thuộc địa của thành trướ.c"/>
+  <n key="956" value="Trong 1 ngày chỉ có thể tiến hành trưng thu hoặc cứu tế 1 lần."/>
+  <n key="957" value="Không thể nhận được tin tức của các vùng thuộc địa."/>
+  <n key="958" value="Tài nguyên của thuộc địa thiếu hụt, không thể trưng thu."/>
+  <n key="959" value="Lãnh chúa phát lệnh trưng thu tới chúa công, chúa công mất {0} {1}."/>
+  <n key="960" value="Báo cáo trưng thu."/>
+  <n key="961" value="Không thể nhận được tin tức của các vùng thuộc địa."/>
+  <n key="962" value="Trong trạng thái nghỉ ngơi không thể cứu tế nô lệ."/>
+  <n key="963" value="Thành này không phải thuộc địa của thành trướ.c"/>
+  <n key="964" value="Trong 1 ngày chỉ có thể tiến hành trưng thu hoặc cứu tế 1 lần."/>
+  <n key="965" value="Tài nguyên của chúa công không đủ, không thể cứu tế."/>
+  <n key="966" value="Lãnh chúa phát lệnh trưng thu tới chúa công, chúa công nhận được {0} {1}. "/>
+  <n key="967" value="Báo cáo cứu tế"/>
+  <n key="968" value="Trong trạng thái nghỉ ngơi, nô lệ không thể chuộc thân."/>
+  <n key="969" value="Chỉ có thành trì đang bị nô dịch mới có thể chuộc thân."/>
+  <n key="970" value='Tự động trở về nơi đóng quân lãnh chủ thất bại（\"{0}\"），hãy trở về sau đó mới chuộc thân'/>
+  <n key="971" value="Đã sử dụng {0} giúp chúa công thoát khỏi vai trò bị nô dịch, và trong vòng {1} giờ sẽ không bị nô dịch lại."/>
+  <n key="972" value="Báo cáo chuộc thân."/>
+  <n key="973" value="Trong trạng thái nghỉ ngơi không thể phóng thích nô lệ."/>
+  <n key="974" value="Quan hệ nô dịch không tồn tại"/>
+  <n key="975" value="Hãy triệu hồi tất cả quân đội hiện đang đóng quân tại lãnh địa này mới có thể phóng thích."/>
+  <n key="976" value="Lãnh chúa của chúa công đã tự động phóng thích thân phận nô lệ cho chúa công."/>
+  <n key="977" value="Thành trì lãnh chúa không tồn tại"/>
+  <n key="978" value="Trong trạng thái nghỉ ngơi không thể kéo dài phong ấn."/>
+  <n key="979" value="Thành này chưa bị phong ấn"/>
+  <n key="980" value="Trong trạng thái nghỉ ngơi không thể giải trừ phong ấn của thành."/>
+  <n key="981" value="Thành này chưa bị phong ấn"/>
+  <n key="982" value="Mức oán giận bằng 0 ."/>
+  <n key="983" value="Vị quân chủ không ở trong trạng thái nô dịch."/>
+  <n key="984" value="Loại hình nhiệm vụ thuộc địa vô hiệu."/>
+  <n key="985" value="Một ngày chỉ có thể nô dịch cùng một nô lệ một lần."/>
+  <n key="986" value="Lãnh chúa {0} hoàn thành nhiệm vụ thuộc địa thất bại."/>
+  <n key="987" value="Không thể tán gẫu."/>
+  <n key="988" value="Tiêu tốn Xu thất bại."/>
+
+
+  <!-- OperRequestDealer.cs -->
+  <n key="989" value="Trong trạng thái nghỉ ngơi không thể thay đổi tên quân chủ."/>
+  <n key="990" value="Quân chủ đang xuất chinh không thể đổi tên."/>
+  <n key="991" value="Tên của quân chủ không được nhiều hơn 5 từ."/>
+  <n key="992" value="Cơ Phát"/>
+  <n key="993" value="Đế Tân"/>
+  <n key="994" value="Khoa Phụ"/>
+  <n key="995" value="Trong trạng thái nghỉ ngơi không thể đổi cờ hiệu quân chủ."/>
+  <n key="996" value="Cờ hiệu không thể là ô trống."/>
+  <n key="997" value="Cờ hiệu chỉ được 1 chữ."/>
+  <n key="998" value="Không thể tự thay đổi trạng thái bảo hộ tân thủ sang trạng thái khác."/>
+  <n key="999" value="Nghỉ ngơi phải kéo dài ít nhất 2 ngày, vẫn còn {0}."/>
+  <n key="1001" value="Không thể thay đổi thành trạng thái tân thủ."/>
+  <n key="1002" value="Hiện tại thành đã ở trạng thái này."/>
+  <n key="1003" value="Tên tài khoản không đúng."/>
+  <n key="1004" value="Không thể thường xuyên treo Miễn Chiến Bài. Thiên hạ sẽ chê cười."/>
+  <n key="1005" value="Sau khi chiếm phân thành của người khác trong vòng 24 giờ không thể treo Miễn Chiến Bài."/>
+  <n key="1006" value="Số ngày nghỉ vô hiệu."/>
+  <n key="1007" value="Số ngày nghỉ ngơi ít nhất là 2 ngày."/>
+  <n key="1008" value="Sau khi chiếm lĩnh phân thành của người khác trong vòng 24 giờ không thể thay đổi thành trạng thái nghỉ ngơi."/>
+  <n key="1009" value="Có quân đội đang xuất chinh ngoài thành, không thể nghỉ ngơi."/>
+  <n key="1010" value="Kiến trúc đang được nâng cấp dở dang, không thể nghỉ ngơi."/>
+  <n key="1011" value="Có đội quân đang chiêu mộ huấn luyện, không thể nghỉ ngơi."/>
+  <n key="1012" value="Kiến trúc đang xây dựng dở dang, không thể nghỉ ngơi."/>
+  <n key="1013" value="Tiên thuật đang được nghiên cứu không thể nghỉ ngơi."/>
+  <n key="1014" value="Số Xu không đủ để có thể nghỉ ngơi."/>
+  <n key="1015" value="Trong trạng thái nghỉ ngơi không thể thay đổi tên thành."/>
+  <n key="1016" value="Thành ở trạng thái phong ấn không thể đổi tên."/>
+  <n key="1017" value="Tên thành trì không thể là ô trống."/>
+  <n key="1018" value="Tên thành không thể nhiều hơn 5 từ."/>
+  <n key="1019" value="Danh thành không thể đổi tên."/>
+  <n key="1020" value="Tên thành có ký tự không cho phép."/>
+  <n key="1021" value="Mỗi ngày chỉ có thể đổi tên thành 1 lần."/>
+  <n key="1022" value="Trong trạng thái nghỉ ngơi không thể điều chỉnh tỉ lệ khai công."/>
+  <n key="1023" value="Thành ở trạng thái phong ấn không thể điều chỉnh tỉ lệ khai công."/>
+  <n key="1024" value="Tỉ lệ khai công vô hiệu."/>
+  <n key="1025" value="Trong trạng thái nghỉ ngơi không thể điều chỉnh thuế suất."/>
+  <n key="1026" value="Thành ở trạng thái phong ấn không thể điều chỉnh thuế suất."/>
+  <n key="1027" value="Thuế suất vô hiệu."/>
+  <n key="1028" value="Trong trạng thái nghỉ ngơi không thể vỗ an bá tánh."/>
+  <n key="1029" value="Thành ở trạng thái phong ấn không thể vỗ an bá tánh."/>
+  <n key="1030" value="Trạng thái bị nô dịch không thể sử dụng."/>
+  <n key="1031" value="Cách {0} phút mới có thể vỗ an 1 lần, vẫn còn {1}."/>
+  <n key="1032" value="Cúng tế trời đất thất bại dẫn đến nhân khẩu giảm xuống."/>
+  <n key="1033" value="Động thái vỗ an bá tánh không tồn tại"/>
+  <n key="1034" value="Vàng không đủ."/>
+  <n key="1035" value="Trong trạng thái nghỉ ngơi không thể trưng thu vật chất."/>
+  <n key="1036" value="Thành ở trạng thái phong ấn không thể trưng thu vật chất."/>
+  <n key="1037" value="Cách {0} phút có thể trưng thu 1 lần, vẫn còn {1}."/>
+  <n key="1038" value="Tài nguyên vô hiệu."/>
+  <n key="1039" value="Không thể trưng thu tài nguyên."/>
+  <n key="1040" value="Ở trạng thái nghỉ ngơi không thể thay đổi tỉ lệ kho."/>
+  <n key="1041" value="Thành ở trạng thái phong ấn không thể thay đổi tỉ lệ dự trữ trong nhà kho."/>
+  <n key="1042" value="Tỉ lệ dự trữ trong nhà kho vô hiệu"/>
+  <n key="1043" value="Kho không tồn tại"/>
+  <n key="1044" value="cityID vô hiệu"/>
+  <n key="1045" value="Phong hiệu cho thuộc địa có ký tự không cho phép."/>
+  <n key="1046" value="Thuộc địa không tồn tại"/>
+  <n key="1047" value="Trong trạng thái nghỉ ngơi không thể đổi thẻ tân thủ."/>
+  <n key="1048" value="Không liên kết được với máy chủ, không thể hoàn thành đổi thẻ"/>
+  <n key="1049" value="Mã thẻ không tồn tại."/>
+  <n key="1050" value="Thẻ này đã qua hạn"/>
+  <n key="1051" value="Thẻ này không sử dụng được trong khu vực này."/>
+  <n key="1052" value="Thẻ này đã được sử dụng."/>
+  <n key="1053" value="Thẻ cùng loại đã được sử dụng."/>
+  <n key="1054" value="Đổi thẻ tân thủ thất bại."/>
+
+
+  <n key="1055" value="Cao cấp quy nguyên đơn chỉ có thể sử dụng 1 lần sau khi nâng cấp,không thể sử dụng để giảm 2 lần(Hiện tại cấp {0} không thế sử dụng)"/>
+  <n key="1056" value="Tu luyện bị buộc dừng lại &#x000A;Thần tiên của bạn đi quá vội vàng,không nhận được gì."/>
+  <n key="1057" value="Tu luyện bị buộc dừng lại &#x000A;Thần tiên của bạn tốn mấy giờ đồng hồ,cũng coi như có chút thu hoạch：&#x000A;Thần tiên nhận được kinh nghiệm{0}&#x000A;"/>
+  <n key="1058" value="Tìm kiếm bị buộc dừng lại &#x000A;Thần tiên của bạn tốn mấy giờ đồng hồ,cũng coi như có chút thu hoạch：&#x000A;Thần tiên tổng cộng nhận được {0} điểm kinh nghiệm"/>
+  <n key="1059" value="Tu luyện bị buộc dừng lại &#x000A;Thần tiên của bạn tốn mấy giờ đồng hồ,cũng coi như có chút thu hoạch：&#x000A;Thần tiên tổng cộng nhận được {0} điểm kinh nghiệm"/>
+  <n key="1060" value="{0} {1}cái"/>
+  <n key="1061" value="Thần tiên tìm kiếm cả nửa ngày trời nhưng không phát hiện được gì."/>
+  <n key="1062" value="Dừng lại tất cả các thao tác do thám, tìm kiếm, tu luyện."/>
+  <n key="1063" value="Không thể hủy bỏ vùng đất hoang không có quân đội đóng quân"/>
+  <n key="1064" value="Người chơi có thao tác kỳ lạ！"/>
+  <n key="1065" value="Chỉ có quân đội đóng quân mới có thể triệu hồi"/>
+  <n key="1066" value="Danh thành này đang trong thời kì bảo hộ 2h sau khi bị chiếm lĩnh, vẫn còn {0}"/>
+  <n key="1067" value="Tên vua[{0}] không tồn tại hoặc vẫn chưa nhập vào"/>
+  <n key="1068" value="Sử dụng luyện tiên hồ thất bại"/>
+  <n key="1069" value="Sử dụng bảo mệnh phù thất bại"/>
+  <n key="1070" value="Sử dụng Trùng sinh đơn thất bại"/>
+  <n key="1071" value="Sử dụng Trùng sinh đơn thất bại"/>
+  <n key="1072" value="Xin không sử dụng file set bên ngoài！"/>
+
+  <n key="1073" value="Trong kì nghỉ không thể luyện hóa thần tiên"/>
+  <n key="1074" value="Các thần tiên không rảnh rỗi hoặc thái thú không thể luyện hóa"/>
+  <n key="1075" value="Quân chủ không thể luyện hóa"/>
+  <n key="1076" value="Danh tiên không thể luyện hóa"/>
+  <n key="1077" value="Xin hãy xóa bỏ số binh mà thần tiên đem theo trước"/>
+  <n key="1078" value="Xin hãy tháo bỏ các trang bị và pháp bảo mà thần tiên đang mang trước"/>
+  <n key="1079" value="Đạo cụ không tồn tại"/>
+  <n key="1080" value="Không thể luyện hóa thần tiên này từ tụ tiên các"/>
+  <n key="1081" value="Thần tiên và thái thú không rảnh rỗi không thể chuyển sinh"/>
+  <n key="1082" value="Xin hãy xóa bỏ số binh mà thần tiên đem theo trước"/>
+  <n key="1083" value="Đẳng cấp của thần tiên này thấp hơn 60,không thể chuyển sinh"/>
+  <n key="1084" value="Đạo cụ có mã là {0} không tồn tại"/>
+  <n key="1085" value="Luyện tiên hồ nay không thể sử dụng cho thần tiên có mức cân cốt này,xin hãy tìm luyện tiên hồ cao cấp"/>
+  <n key="1086" value="Luyện tiên hồ nay không thể sử dụng cho thần tiên có mức cân cốt này"/>
+  <n key="1087" value="Thần tiên của bạn đã đạt đến cực hạn,không thể luyện tiên tiếp"/>
+  <n key="1088" value="Không tìm thấy loại luyện tiên hồ này"/>
+  <n key="1089" value="Không nhận được tham số đẳng cấp chuyển sinh tương quan"/>
+  <n key="1090" value="Không nhận được tham số đẳng cấp thuộc tính chuyển sinh tương quan"/>
+  <n key="1091" value="Trong bưu kiện của người chơi không tồn tại {0}"/>
+  <n key="1092" value="Sử dụng luyện tiên hồ thất bại"/>
+  <n key="1093" value="Sử dụng Trùng sinh đơn thất bại"/>
+  <n key="1094" value="Sử dụng quả chúc phúc đơn thất bại"/>
+  <n key="1095" value="Sử dụng trùng sinh đơn cao cấp thất bại"/>
+  <n key="1096" value="Sử dụng quả chúc phúc cao cấp thất bại"/>
+  <n key="1097" value="Không thể do thám toàn bộ %CR% có thể do vùng đất hoang không có quân đội chiếm đóng hoặc vẫn chưa chiếm lĩnh vùng đất hoang,bắt đầu do thám vùng đất hoang"/>
+  <n key="1098" value="Thao tác do thám kỳ lạ！"/>
+  <n key="1099" value="Trong kỳ nghỉ không thể do thám"/>
+  <n key="1100" value="Danh thành trong thời kì 2h bảo hộ sau khi bị chiếm lĩnh không thể tiến hành công kích người chơi khác,vẫn còn  {0}"/>
+  <n key="1101" value="Thành trì này trong lúc chiến đấu không thể chọn phong ấn"/>
+  <n key="1102" value="Thành trì này trong lúc có quân đội ở bên ngoài không thể chọn phong ấn"/>
+  <n key="1103" value="Thành trì này trong lúc có quân đội chiếm đóng không thể chọn phong ấn"/>
+  <n key="1104" value="Thành trì này trong lúc có vùng đất hoang thuộc địa không thể chọn phong ấn"/>
+  <n key="1105" value="Không bị nô dịch,không thể khởi nghĩa"/>
+  <n key="1106" value="Trong kỳ nghỉ không thể tiến hành sửa tường thành"/>
+  <n key="1107" value="Thành bị phong ấn không thể tiến hành sửa tường thành"/>
+  <n key="1108" value="Tài nguyên thành trì không đủ"/>
+  <n key="1109" value="Nhận tin tức thành trì thất bại"/>
+  <n key="1110" value="Nhận tin tức người chơi thất bại"/>
+  <n key="1111" value="Tiêu tốn {0} thất bại"/>
+  <n key="1112" value="Không thể tìm kiếm toàn bộ %CR% có thể do vùng đất hoang không có quân đội chiếm đóng hoặc vẫn chưa chiếm lĩnh vùng đất hoang, bắt đầu tìm kiếm vùng đất hoang"/>
+  <n key="1113" value="Thao tác tìm kiếm kỳ lạ！"/>
+  <n key="1114" value="Không thể tu luyện toàn bộ %CR%  có thể do vùng đất hoang không có quân đội chiếm đóng hoặc vẫn chưa chiếm lĩnh vùng đất hoang, bắt đầu tu luyện vùng đất hoang"/>
+  <n key="1115" value="Thao tác tu luyện kỳ lạ！"/>
+  <n key="1116" value="Mục tiêu quân chủ không tồn tại"/>
+  <n key="1117" value="Sai khi hiệu quả của miễn chiến bài kết thúc,cần phải đợi hết 6h đóng băng,thời gian tiếp tục sử dụng miễn chiến bài còn lại {0}"/>
+  <n key="1118" value="Quân chủ thần tiên không tồn tại"/>
+
+  <n key="1119" value="Tên quân chủ đã có trong kho dữ liệu(xin hãy kiểm tra lại các ký tự)"/>
+  <n key="1120" value="Chỉ có danh tiên {0} mới có thể trang bị {1} "/>
+  <n key="1121" value="Chỉ có thần tiên có cân cốt từ {0} trở lên mới có thể trang bị {1}"/>
+  <n key="1122" value="Chỉ có thần tiên tính {0} mới có thể sử dụng trang bị {1}"/>
+  <n key="1123" value="Nam"/>
+  <n key="1124" value="Nữ"/>
+  <n key="1125" value="Chỉ có thần tiên thuộc {0} mới có thể sử dụng trang bị {1}"/>
+  <n key="1126" value="Xiển giáo"/>
+  <n key="1127" value="Tiệt giáo"/>
+  <n key="1128" value="Danh tiên"/>
+  <n key="1129" value="Tản tiên"/>
+
+  <n key="1130" value="Trong kì nghỉ không thể thay đổi cân cốt"/>
+  <n key="1131" value="Thành trì bị phong ấn không thể thay đổi cân cốt"/>
+  <n key="1132" value="Thần tiên không rảnh rỗi hoặc thái thú đang chiến đấu không thể thay đổi cân cốt"/>
+  <n key="1133" value="Chỉ có danh tiên {0} mới có thể sử dụng {1}"/>
+  <n key="1134" value="Chỉ có thần tiên có cân cốt từ {0} trở lên mới có thể trang bị {1}"/>
+  <n key="1135" value="Chỉ có thần tiên tính {0} mới có thể sử dụng trang bị {1}"/>
+  <n key="1136" value="Chỉ có thần tiên thuộc {0} mới có thể sử dụng trang bị {1}"/>
+  <n key="1137" value="Mức cân cốt của thần tiên đã đạt đến mức cao nhất {0}"/>
+
+  <n key="2000" value="Bạn không thể trang bị cùng 1 loại pháp bảo"/>
+  <n key="2001" value="Không thể đối cứ điểm xuất chinh"/> 
+  <n key="2002" value="Vật phẩm không thể dùng cho thay đổi thần tiên căn cốt {0}"/> 
+
+  <n key="2003" value="Nghỉ ngơi không thể tiến hành bỏ phiếu"/> 
+  <n key="2004" value="Thành viên mới có thể bỏ phiếu liên minh"/> 
+  <n key="2005" value="Minh chủ không thể tham dự bỏ phiếu"/> 
+  <n key="2006" value="Cứ điểm không tồn tại"/> 
+  <n key="2007" value="Cứ điểm tron giai đoạn chiến đấu không thể bỏ phiếu"/> 
+  <n key="2008" value="Một cứ điểm chỉ có thể bỏ phiếu một lần"/> 
+  <n key="2009" value="Nghỉ ngơi khi không thể tiến hành thiết lập"/> 
+  <n key="2010" value="Minh chủ liên minh  mới có thể thiết lập chiến cứ điểm "/> 
+  <n key="2011" value="Chỉ có minh chủ có thể thiết lập cứ điểm chiến"/> 
+  <n key="2012" value="Hiện tại đang trong giai đoạn không thể thiết lập chiến cứ điểm "/> 
+  <n key="2013" value="Nghỉ ngơi không thể tiến hành lĩnh thưởng" /> 
+  <n key="2014" value="Trong liên minh mới có tư cách lĩnh thưởng"/> 
+  <n key="2015" value="Chỉ có minh chủ có thể lĩnh thưởng"/> 
+  <n key="2016" value="Cứ điểm trong giai đoạn chiến đấu  không thể lĩnh thưởng"/> 
+  <n key="2017" value="Chỉ có liên minh chiếm lĩnh cứ điểm  mới có thể lĩnh thưởng"/> 
+  <n key="2018" value="Một cứ điểm chỉ có thể lĩnh một lần thưởng mỗi tuần"/> 
+  <n key="2019" value="Thưởng cứ điểm  chưa thiết lập"/> 
+  <n key="2020" value="Thành viên liên minh  mới có thể xem xét binh lực liên minh "/> 
+  <n key="2021" value="Chỉ có cứ điểm đã chiếm lĩnh mới có thể xem xét binh lực liên minh"/> 
+  <n key="2022" value="Thành viên liên minh mới có thể xem xét tin tức cứ điểm chiến "/> 
+  <n key="2023" value="Không thể nhỏ hoặc bằng 0" /> 
+  <n key="2024" value="Khi Nghỉ ngơi không thể tiến hành quyên góp"/> 
+  <n key="2025" value="Bị phong ấn thành trì không thể tiến hành quyên góp"/> 
+  <n key="2026" value="Người chơi không thuộc về liên minh, không thể quyên góp"/> 
+  <n key="2027" value="Cứ điểm trong lúc chiến đấu không cho phép tiến hành quyên góp"/> 
+  <n key="2028" value="Thành viên nhiều nhất chỉ có thể quyên góp 5 thần tiên"/> 
+  <n key="2029" value="Một thần tiên không tồn tại, không thể tiến hành quyên góp"/> 
+  <n key="2030" value="Thần tiên {0} đã rời đi, không thể tiến hành quyên góp"/> 
+  <n key="2031" value="Binh chủng {0} số lượng không đủ, không thể tiến hành quyên góp"/> 
+  <n key="2032" value="Binh chủng {0} số lượng vô hiệu, không thể tiến hành quyên góp"/> 
+  <n key="2033" value="Mỗi loại binh hiến cho sổ không thể nhỏ 100" /> 
+  <n key="2034" value="Khi Nghỉ ngơi không thể tiến hành thiết lập cứ điểm chiến"/> 
+  <n key="2035" value="Người chơi không thuộc về liên minh, không thể đặt ra cứ điểm chiến"/> 
+  <n key="2036" value="Không thể chủ động thiết lập cứ điểm"/> 
+  <n key="2037" value="Không thể tham dự thiết lập cứ điểm đối với liên minh"/> 
+  <n key="2038" value="Không thể thay đổi tin tức cứ điểm ban đầu"/> 
+  <n key="2039" value="Không thể thay đổi đã tin tức thiết lập cứ điểm tham dự "/> 
+  <n key="2040" value="Khi Nghỉ ngơi không thể tiến hành thay đổi thiết lập cứ điểm chiến"/> 
+  <n key="2041" value="Người chơi không thuộc về liên minh, không thể thay đổi thiết lập cứ điểm chiến" /> 
+  <n key="2042" value="Chỉ có minh chủ có thể thay đổi thiết lập cứ điểm chiến"/> 
+  <n key="2043" value="Liên minh đã không tham gia vào những căn cứ thiết lập"/> 
+  <n key="2044" value="Không thể thay đổi vị trí cứ điểm"/> 
+  <n key="2045" value="Không thể thay đổi tham dự cứ điểm "/> 
+  <n key="2046" value="Khi Nghỉ ngơi không thể tiến hành thiết lập chiến lược cứ điểm "/> 
+  <n key="2047" value="Người chơi không thuộc về liên minh, không thể thiết lập chiến lược cứ điểm"/> 
+  <n key="2048" value="Chỉ có minh chủ có thể thiết lập chiến lược cứ điểm"/> 
+  <n key="2049" value="Hiện tại đang trong giai đoạn không thể thiết lập chiến lược cứ điểm"/> 
+  <n key="2050" value="Liên minh không báo danh tham dự chiến đấu cứ điểm "/> 
+  <n key="2051" value="Chỉ có chủ công thiết lập chiến lược công kích"/> 
+  <n key="2052" value="Chỉ có chủ công thiết lập chiến lược phòng thủ "/> 
+  <n key="2053" value="{0} liên minh chỉ có thể lựa chọn {1} Một liên minh giúp đỡ"/> 
+  <n key="2054" value="Chỉ định liên minh giúp đỡ không tồn tại"/> 
+  <n key="2055" value="Liên minh [{0}] không áp dụng để hỗ trợ Liên minh"/> 
+  <n key="2056" value="Liên minh thiết lập chiến lược cứ điểm thất bại"/> 
+  <n key="2057" value="Khi Nghỉ ngơi không thể tiến hành thiết lập quân bị cứ điểm chiến"/> 
+  <n key="2058" value="Người chơi không thuộc về liên minh, không thể thiết lập quân bị cứ điểm chiến "/> 
+  <n key="2059" value="Minh chủ mới có thể thiết lập quân bị cứ điểm chiến "/> 
+  <n key="2060" value="Hiện tại đang trong giai đoạn không thể thiết lập quân bị cứ điểm chiến"/> 
+  <n key="2061" value="Liên minh không báo danh tham dự chiến đấu cứ điểm "/> 
+  <n key="2062" value="Thiết lập quân bị nhiều nhất chỉ có 5 Thần tiên "/> 
+  <n key="2063" value="Không thể lựa chọn quân chủ của thần tiên vì không  ở trong liên minh, Hãy lựa chọn thần tiên"/> 
+  <n key="2064" value="quân chủ chưa gia nhập Liên minh khi không thể sử dụng này thần tiên [{0}]" /> 
+  <n key="2065" value="Đã phái thần tiên [{0}] đến cứ điểm chiến khác"/> 
+  <n key="2066" value="Thần tiên [{0}] mang theo binh chủng không tồn tại"/> 
+  <n key="2067" value="Thần tiên [{0}] mang theo binh lượng vượt quá năng lực"/> 
+  <n key="2068" value="Đạo cụ không tồn tại hoặc chủng loại vô hiệu"/> 
+  <n key="2069" value="Nhiều nhất chỉ có thể mang theo {0} loại đạo cụ"/> 
+  <n key="2070" value="Đạo cụ [{0}] số lượng không đủ"/> 
+  <n key="2071" value="Không thuộc về liên minh, không thể dùng điểm vinh dự để mua"/> 
+  <n key="2072" value="Chiếm được {0} cứ điểm mới có thể mua vật phẩm"/> 
+  <n key="2073" value="Thành viên liên minh mới có thể lĩnh thưởng cứ điểm chiến"/> 
+  <n key="2074" value="Hiện tại không thể lĩnh thưởng cứ điểm"/> 
+  <n key="2075" value="Quân chủ không có tham dự cùng liên minh chiếm cứ điểm lần gần đây nhất" /> 
+  <n key="2076" value="Liên minh lần gần đây nhất chiếm cứ điểm thắng lợi"/> 
+  <n key="2077" value="Chúa công muốn lĩnh thưởng cứ điểm chiến"/> 
+  <n key="2078" value="没有你可以领取的该据点战奖励"/>
+  <n key="2079" value="载入奖励信息失败：{0}, {1}"/>
+  <n key="2080" value="自己联盟的据点只能设置为主防"/>
+  <n key="2081" value="无法验证盟友关系"/>
+  <n key="2082" value="不能主攻友盟的据点"/>
+  <n key="2083" value="必须设置协攻或协防的目标联盟"/>
+  <n key="2084" value="协攻或协防只能针对友盟来设置"/>
+  <n key="2085" value="非自己联盟的据点不能设置为主防"/>
+  <n key="2086" value="联盟 {0}({1}级联盟) 经过长时间的艰苦奋斗，成功攻占据点 {2}({3}，{4})，在占领期间该联盟所有成员在 {2}({3}，{4}) 范围内可获得经验加成以及掉率加成，盟主 {5} 还将获得一份神秘的大奖。"/>
+  <n key="2087" value="联盟 {0}({1}级联盟) 经过长时间的艰苦奋斗，成功防守据点 {2}({3}，{4})，该联盟所有成员在 {2}({3}，{4}) 范围内可以继续享受经验加成以及掉率加成，盟主 {5} 将获得一份神秘礼物。"/>
+  <n key="2088" value="9=几个;24=少数;49=小队;99=一些;249=一群;499=许多;999=大队;2499=大群;4999=大批;9999=巨量;10000=无数"/>
+  <n key="2089" value="经验加成{0}%,各种资源基础产量受到{1}%加成。\n"/>
+  <n key="2090" value="神仙{0}状态无效，无法进行捐助"/>
+  <n key="2091" value="被据点战选用的神仙无法解雇"/>
+  <n key="2092" value="你的荣誉不足"/>
+  <n key="2093" value="据点增益"/>
+  <n key="2094" value="据点战后加入的玩家不能领取奖励"/>
+  <n key="2095" value="该据点战设定已经存在"/>
+  <n key="2096" value="不能获取非联盟或其他联盟成员的神仙捐助列表"/>
+  <n key="2097" value="玩家所属联盟不存在"/>
+  <n key="2098" value="联盟没有足够的{0}"/>
+  <n key="2099" value="不存在编号的{0}的捐献道具"/>
+  <n key="2100" value="Không thể cống hiến đạo cụ {0}"/> 
+  <n key="2101" value="Số lượng đạo cụ {0} cống hiến không phù hợp"/> 
+  <n key="2102" value="Số lượng đạo cụ {0} cống hiến không đủ"/> 
+  <n key="2103" value="新手保护效果，在此期间可以获得双倍的建造速度、造兵速度、经验加成以及各类资源的产量加成"/>
+  <n key="2104" value="你不属于任何联盟，无法查看联盟成员"/>
+  <n key="2105" value="你不属于任何联盟，无法指定据点战控制者"/>
+  <n key="2106" value="只有盟主可以指定据点战控制者"/>
+  <n key="2107" value="当前阶段不可以指定据点战控制者"/>
+  <n key="2108" value="指定的控制者不属于本联盟"/>
+  <n key="2109" value="Không thể khảm nạm được tọa kỵ (thú)"/> 
+  <n key="2110" value="Không thể khảm nạm pháp bảo"/> 
+  <n key="2111" value="Không thể rèn được tọa kỵ (thú)"/> 
+  <n key="2112" value="Không thể rèn được pháp bảo"/>
+  <n key="2113" value="Thành chủ không nằm trong liên minh, không thể xem thông tin quyên góp"/> 
+  <n key="2114" value="Phải chiếm lĩnh được {0} Cứ điểm trong một Châu thì sau đó mới có thể mua vật phẩm"/> 
+  <n key="2115" value="Danh thành bị chiếm lĩnh, trong 24 giờ không thể phá bỏ kiến trúc! Còn {0}" /> 
+  <n key="2116" value="Offline quá 999 giờ"/> 
+  <n key="2117" value="不能对{0}进行此操作"/>
+  <n key="2118" value="我方士兵总人口数为{0}，低于{1}内要求的最少士兵人口数{2}"/>
+  <n key="2119" value="{0}已被攻破，请{1}日后再来访问"/>
+  <n key="2120" value="玩家 {0} 经过艰苦的奋战成功攻破了{1}({2}，{3})，在{1}中获得了{4}，现在{1}已被破坏，需要{5}天时间来恢复。"/>
+  <n key="2121" value="请输入运营商标识："/>
+  <n key="2122" value="成功：运营商版本匹配正确。"/>
+  <n key="2123" value="错误：运营商版本不匹配。"/>
+  <n key="2124" value="该城池城外停着很多运输车辆无法进城，看来已经超过该城池所能容纳的限制了，你的运输部队只好先行返回。"/>
+  <n key="2125" value="已经有很多部队同时攻击{0}({1}，{2})，你的部队无法插手进攻，暂时先行返回，等待良机。"/>
+  <n key="2126" value="敌方城池空虚，我方军队趁其不备，快速攻入其城内，由于征服条件不满足，获得黄金：{0}。"/>
+  <n key="2127" value="我方城池空虚，敌方军队趁其不备，快速攻入其城内，由于征服条件不满足，获得黄金：{0}。"/>
+  <n key="2128" value="敌方城池空虚，我方军队趁其不备，快速攻入其城内，大肆掠夺了一番。"/>
+  <n key="2129" value="我方城池空虚，敌方军队趁其不备，快速攻入其城内，大肆掠夺了一番。"/>
+  <n key="2130" value="玩家 {0} 在不周山的战斗中， 俘获名仙{1}。"/>
+  <n key="2131" value="由于不周山规则所限，原驻守不周山内的军队已自动遣返回城池中"/>
+  <n key="2133" value="玩家 {0} 在不周山第{1}层经过艰苦的战斗，获得了{2}。"/>
+
+  <!-- zengchao 6000-7999 -->
+  <n key="6001" value="你处在必战术状态下，无法使用免战牌"/>
+  <n key="6002" value="你处在泥沼术状态下，无法运输"/>
+  <n key="6003" value="你处在防移术状态下，无法移城"/>
+  <n key="6004" value="你处在无兵术状态下，无法调兵"/>
+  <n key="6005" value="你处在出阵术状态下，无法出征"/>
+  <n key="6006" value="目标君主不存在"/>
+  <n key="6007" value="仙术"/>
+  <n key="6008" value="使用仙术的君主不存在"/>
+  <n key="6009" value="目标君主不存在"/>
+  <n key="6010" value="指定的仙术不存在"/>
+  <n key="6011" value="使用仙术的玩家的城池不存在"/>
+  <n key="6012" value="指定神仙不存在"/>
+  <n key="6013" value="目标玩家的城池不存在"/>
+  <n key="6014" value="仙术不存在"/>
+  <n key="6015" value="道法不足"/>
+  <n key="6016" value="{0}  使用  {1}  成功&#x000A;效果: &#x000A;"/>
+  <n key="6017" value="{0}对您使用{1}&#x000A;效果：&#x000A;"/>
+  <n key="6018" value="在接下来的{0}小时内 {1} 资源产量保持降低{2}%"/>
+  <n key="6019" value="&#x000A;食物减少{0}，剩余{1}"/>
+  <n key="6020" value="&#x000A;木材减少{0}，剩余{1}"/>
+  <n key="6021" value="&#x000A;石料减少{0}，剩余{1}"/>
+  <n key="6022" value="&#x000A;铜矿减少{0}，剩余{1}"/>
+  <n key="6023" value="由于对方太守道法太高，您使用{0}失败，未产生效果"/>
+  <n key="6024" value="{0}对您使用{1}，但由于您的太守道法高强，对方使用失败，未产生作用"/>
+  <n key="6025" value="&#x000A;在接下来的{0}小时内 {1} 空闲人口保持降低{2}%"/>
+  <n key="6026" value="&#x000A;民怨增加{0}，现在{1}"/>
+  <n key="6027" value="&#x000A;民心降低{0}，现在{1}"/>
+  <n key="6028" value="&#x000A;兵营中{0}损失{1}"/>
+  <n key="6029" value="&#x000A;{0}驻扎神仙忠诚度下降{1}"/>
+  <n key="6030" value="&#x000A;{0}在{1}小时内必须迎战。"/>
+  <n key="6031" value="&#x000A;在接下来的{0}小时内 {1} 城墙耐久度保持降低{2}%"/>
+  <n key="6032" value="&#x000A;{0}旗下所有部队行军速度减少{1}%，持续{2}小时"/>
+  <n key="6033" value="&#x000A;减少{0}侦查成功率{1}%，持续{2}小时,"/>
+  <n key="6034" value="&#x000A;{0}的{1}({2},{3})在{4}小时内无法侦查其他玩家及其所属野地"/>
+  <n key="6035" value="&#x000A;{0}在{1}小时内无法免战"/>
+  <n key="6036" value="&#x000A;{0}在{1}小时内无法运输"/>
+  <n key="6037" value="&#x000A;{0}在{1}小时内无法移城"/>
+  <n key="6038" value="&#x000A;{0}在{1}小时内无法调兵"/>
+  <n key="6039" value="&#x000A;{0}在{1}小时内无法出征"/>
+  <n key="6040" value="消耗千里传音失败"/>
+  <n key="6041" value="配兵信息不正确"/>
+  <n key="6042" value="当前没有据点战"/>
+  <n key="6043" value="联盟增益"/>
+  <n key="6044" value="生命回复速度提高{0}%"/>
+  <n key="6045" value="法力回复速度提高{0}%"/>
+  <n key="6046" value="资源产量提高{0}%"/>
+  <n key="6047" value="战斗经验提高{0}%"/>
+  <n key="6048" value="兵种成本降低{0}%"/>
+  <n key="6049" value="联盟运输速度增加{0}%"/>
+  <n key="6050" value="兵种制造时间减少{0}%"/>
+  <!-- end 6000-7999 -->
+
+
+
+
+
+
+
+
+  
+  <!-- zhoujiabin 4000-5999 -->
+  <n key="4000" value="城池内该神仙的相关信息"/>
+  <n key="4001" value="非空闲状态的神仙无法飞升"/>
+  <n key="4002" value="休假时不可以飞升神仙"/>
+  <n key="4003" value="无法获取该兵种信息"/>
+  <n key="4004" value="无法获取该装备信息"/>
+  <n key="4005" value="只有飞升过的神仙才可以使用{0}"/>
+  <n key="4006" value="神仙{0}根骨未达到{1}，无法炼仙"/>
+  <n key="4007" value="神仙根骨未达到极品炼仙壶要求，无法炼仙"/>
+  <n key="4008" value="玩家 {0} 成功在马厩中降伏了 {1}。"/>
+  <n key="4009" value="您的在线时间超过{0}分钟并小于{1}分钟，只能获得{2}%的收益，请注意休息。"/>
+  <n key="4010" value="您的在线时间超过{0}分钟，无法获得收益，建议您下线休息。"/>
+  <n key="4011" value="普通攻击"/>
+  <n key="4012" value="联盟 {0} 经过长时间的艰苦奋斗，成功攻占据点 {1}，在占领期间该联盟所有成员在 {1} 范围内可获得经验加成以及掉率加成，盟主 {2} 还将获得一份神秘的大奖。"/>
+  <n key="4013" value="联盟 {0} 经过长时间的艰苦奋斗，成功防守据点 {1}，该联盟所有成员在 {1} 范围内可以继续享受经验加成以及掉率加成，盟主 {2} 将获得一份神秘礼物。"/>
+  <n key="4014" value="联盟 {0} 经过长时间的艰苦奋斗，成功防守据点 {1}。"/>
+  <n key="4015" value="在争夺据点 {0} 的战争中，联盟 {1} 与 {2} 的战争已经分出胜负，{3} 取得胜利，他会是最后的胜利者吗？敬请期待！！！"/>
+  <n key="4016" value="联盟 {0} 成功占据了 据点 {1} 的城门，即将对内城发动进攻。"/>
+  <n key="4017" value="您的联盟与联盟 {0} 战斗开始"/>
+  <n key="4018" value="cấp"/> 
+  <n key="4019" value="由于攻守方双方都无军队镇守营地，但上天比较眷顾 {0}，{0} 胜利。"/>
+  <n key="4020" value="由于 {1} 营地无军队镇守，{0} 轻易闯入其营地，{0} 胜利。"/>
+  <n key="4021" value="神仙未飞升，无法炼仙"/>
+  <n key="4022" value="单挑专属装备，只能在封神塔内装配。"/>
+  <n key="4023" value="充值奖励道具"/>
+  <n key="4024" value="{0}:^    感谢您对封神无敌的支持，由于您的充值操作，现在获得了以下奖励:^"/>
+  <n key="4025" value="   希望您游戏愉快!"/>
+  <n key="4026" value="系统邮件"/>
+  <n key="4027" value="个"/>
+  <n key="4028" value="Chúc mừng chúa công {0} có danh tiên {1} đạt danh hiệu Bách Chiến Bách Thắng, đệ nhất danh tiên tại Phong Thần Tháp"/>
+  <n key="4029" value="Chúc mừng chúa công {0} có danh tiên {1} đạt danh hiệu Nhất Nhân Chi Chi Hạ, đệ {2} danh tiên tại Phong Thần Tháp"/>
+  <n key="4030" value="Chúc mừng chúa công {0} có danh tiên {1} đạt danh hiệu Kinh Nghiệm Đại Sư, đồng thời nhận ngay hiệu quả gia tăng 15% kinh nghiệm"/>
+  <n key="4031" value="Bách Chiến Bách Thắng"/>
+  <n key="4032" value="Nhất Nhân Chi Chi Hạ"/>
+  <n key="4033" value="Kinh Nghiệm Đại Sư"/>
+  <!-- end 4000-5999 -->
+
+  <!-- guoliang 8000-10000 -->
+
+  <!--slave module desc-->
+  <!--保镖-->
+  <n key="8000" value="Bởi vì kiên trì kháng chiến, lĩnh chủ {0} thành công thoát khỏi kiếp nô lệ, chúc mừng {1} không thể thoát khỏi nô lệ, chỉ để lại trên đời chút hương nhạt nhoà."/>
+  <n key="8001" value="Do Thành chủ {0} gần đây bởi vì tâm thần không yên, ra lệnh {1} đảm nhiệm trông giữ nhà cửa, ngày đêm chăm nom, {2} thường tinh thần không đầy đặn"/>
+  <n key="8002" value="Đầy tớ {0} gần đây mỗi ngày đi theo chủ nhân {1} ngày đêm phục vụ, chẳng khác nào một chú cún trung thành, lĩnh chủ {2} phá lệ ban thưởng cho một viên đại lực hoàn, chúc cho hắn sớm có ngày vượt qua được “chướng ngại tâm lý” "/>
+
+
+  <!--做工-->
+  <n key="8003" value="Do Thành chủ {0} gần đây thuế má không được như ý, ra lệnh đầy tớ {1} đi ra quán rượu làm thằng hề để kiếm vàng nộp cho chủ nhân!"/>
+  <n key="8004" value="Do Thành chủ {0} thèm muốn mua một cái pháp bảo, nhưng khổ nỗi trong người lại đêk có đủ vàng để trả, cho nên đầy tớ {1} bị gọi đến đi làm dọn vệ sinh kiếm tiền cho chủ nhân mua PB."/>
+  <n key="8005" value="Do Thành chủ {0} Đối với ngươi cam kết chỉ cần {1} nộp lên một lượng vàng nhất định, ngài sẽ cho chuộc thân {2} Chúc ngươi cố gắng ngày đêm làm công kiếm tiền, đẹp gái làm cave, to con làm trai bao để sớm ngày kết thúc kiếp đầy tớ."/>
+
+  <n key="8006" value="Bảo "/>
+  <n key="8007" value="Làm thợ"/> 
+
+  <n key="8008" value="Sự kiện hộ vệ chủ công (lực công kích lên cao {0}%)"/>
+  <n key="8009" value="Sự kiện hộ vệ chủ công (lực công kích giảm xuống {0}%)"/>
+
+<n key="8010" value="Sự kiện chăm chỉ, lực công kích lên cao {0}%)"/>
+<n key="8011" value=" Sự kiện chăm chỉ, lực công kích giảm xuống {0}%)"/>
+
+<n key="8012" value="Mua thất bại, trong vòng 24h bạn chỉ có thể mua một lần."/>
+<n key="8013" value="Trang bị, tài nguyên đã cung phụng cho chủ thần, đạt được độ thân mật tăng thêm {0}"/>
+<n key="8014" value="Cung phụng thất bại, bạn không có nhiều vàng (tài nguyên như vậy) định lừa ta à!"/>
+<n key="8015" value="Chia buồn, việc thay đổi chủ thần cung phụng thất bại."/>
+<n key="8016" value="Chúc mừng bạn thay đổi chủ thần cung phụng thành công!"/>
+<n key="8017" value="Mua thành công, bạn bị trừ {0} điểm cống hiến bang hội."/>
+<n key="8018" value="Mua Thất bại! "/>
+<n key="8019" value="Tu luyện tại tiên cảnh thất bại, vàng không đủ!"/>
+<n key="8060" value="Bạn đã phái thành công một đội quân tiến hành thăm dò Bất Chu Sơn."/>
+<n key="8061" value="Chỉ có minh chủ liên minh mới có thể thực hiện việc thay đổi chủ thần."/>
+<n key="8062" value="Không thể thay đổi 2 chủ thần giống nhau, ngốc à?"/>
+<n key="8100" value="Trong trạng thái xuất chinh thuật, người chơi không có cách nào tiến hành xuất chinh! "/>
+<n key="8101" value="Ở trong trạng thái Thiên Phạt Thuật, không thể đem phòng thủ sửa đổi! "/>
+<n key="8102" value="Bởi vì Đạo pháp của thành trì đối phương cao hơn đạo pháp thần tiên của bạn, tiên thuật sử dụng thất bại!!"/>
+<n key="8103" value="Thần tiên vẫn đang tham chiến, làm sao mà có thể sử dụng bổ binh phù? "/>
+<n key="8104" value="Dân tâm thuật sử dụng thất bại do thành trì đối phương oán hận đã đạt đến 100."/>
+<n key="8105" value="Đối phương đang ở vào trạng thái Nê Chiểu Thuật, không thể tiến hành vận chuyển."/>
+<n key="8106" value="Lần cuối cùng sử dụng, thời gian lớn hơn hiện tại, lần tiếp theo sử dụng thời gian sẽ là {0}.trước mặt thời gian : {0}"/>
+<n key="8107" value="Trong kho làm gì có tiên bài mà bạn muốn sử dụng!"/>
+<n key="8108" value="Mục tiêu thành trì hôm nay đã bị sử dụng {0} {1} lần, không thể sử dụng nữa."/>
+<n key="8109" value="Ở trong vòng phạm vi châu vực này, tốc độ vận chuyển tăng 15%.\n"/>
+<n key="8110" value="Ở trong vòng phạm vi châu vực này, thời gian xây tạo kiến trúc giảm 15%.\n"/>
+<n key="8111" value="Ở trong vòng phạm vi châu vực này, khoa kỹ tu luyện thời gian giảm 15%.\n"/>
+<n key="8112" value="Thời gian chế tao binh chủng giảm bớt {0}%.\n"/>
+<n key="8113" value="Thành trì phòng ngự gia tăng 10%.\n"/>
+<n key="8114" value="Thành trì ở {0} dưới tác dụng vẫn còn đang trong trang thái khôi phục sau {1} mới có thể tiếp tục sử dụng."/>
+<n key="8115" value="Ở trong phạm vi châu vực này,dẫn tiên đài có khả năng xuất hiện {0}.\n"/>
+<n key="8488" value="Trong thời gian đóng băng, không thể lại tiến hành thăm dò Bất Chu Sơn"/>
+<n key="8489" value="Thành trì bị phong ấn, không thể tiến hành thăm dò bất chu sơn"/>
+<n key="8490" value="Bất chu sơn không tồn tại"/>
+<n key="8493" value="Bạn không có quân đội đang tiến hành thăm dò tại bất chu sơn"/>
+<n key="8494" value="Quân đội phái đến bất chu sơn còn chưa xuống xe!"/>
+<n key="8492" value="Bất chu sơn hôm nay đã thăm dò hết số lần quy định"/>
+<n key="8496" value="Quân đội bạn phái đến bất chu sơn hiện tại đang oánh nhau ^^"/>
+<n key="8600" value="Bất chu sơn không tồn tại, không cách nào tiến hành khiêu chiến bất chu sơn"/>
+<n key="8601" value="Bất Chu Sơn"/>
+<n key="8602" value="Thêm vào số lượng binh thất bại"/> 
+<n key="8603" value="Bạn chưa đủ điều kiện vào bất chu sơn"/>
+
+
+
+
+
+  <!-- end 8000-10000 -->
+
+  <!--add by mazhengbao 10000-12000-->
+<n key="10000" value="Bạn không thể tiến hành do Thám-Cướp-Chiếm đoạt thành trì của đồng minh "/>
+<n key="10001" value="Bởi vì độ trung thành của thần tiên quá thấp, vượt qua mức giới hạn, nên thần tiên {0} của bạn đã phản bội."/>
+<n key="10002" value="Bởi vì thành chủ phòng vệ sơ sót, nên thần tiên { 0} tù binh đã bỏ trốn"/>
+<n key="10003" value="Chúc mừng người chơi {0} Thành công đem thần tiên {1} Luyện hoá tăng thêm {2} căn cốt"/>
+
+
+  <!-- add by xushengtao 12001-14000 -->
+  <n key="12001" value="&#x000A;Trong vòng 7 giờ {1}({2},{3})sinh ra hiệu quả cấm ma thuật，Người chơi không thể sử dụng pháp bảo，Dùng cấm ma 1 lần sau 12h mới được dùng tiếp"/>
+<n key="12002" value="&#x000A;Sử dụng thất bại, đã có một tiên thuật tương tự được buff vào thành "/>
+<n key="12003" value="&#x000A;Chúc mừng bạn đạt được quyền khống chế cứ điểm chiến, thành công nhận được phần thưởng:"/> 
+<n key="12004" value="&#x000A;Đạt được {0} x {1} cái."/> 
+<n key="12005" value="Cứ điểm thắng lợi, nhận được phần thưởng"/>
+<n key="12006" value="Người chơi {0} ở {1} cấp {2} trải qua khổ chiến đạt được {3} cám ơn"/>
+<n key="12007" value="người chơi {0} ở {1} cấp {2} tầng {3} nhiều lần trải qua chiến đấu nhận được {4} chân thân"/>
+<n key="12008" value="xin mời sử dụng chính xác đạo cụ"/>
+<n key="12009" value="Chúc mừng bạn đạt được{0}cấp{1}."/>
+<n key="12010" value="Thời gian online {0} phút, sẽ nhận được {1}*1 {2}*1 "/>
+<n key="12011" value="Thời gian online {0} giờ, sẽ nhận được {1}*1 {2}*1 "/>
+<n key="12012" value="Thằng đó không online =))"/>
+<n key="12013" value="Bạn đã nhận được {0}*1 {1}*1."/>
+<n key="12014" value="Chỉ có thần tiên đã phong thần mới được sử dụng {0}"/>
+<n key="12015" value="Chỉ có thần tiên căn cốt đạt tới 45, sau khi thành công phong thần mới có thể tiếp tục luyện tiên"/>
+<n key="12016" value="Thần tiên bị bắt làm tù binh không thể trang bị đạo cụ"/>
+<n key="12017" value="Hôm nay bạn đã mua 5 cái, đạt đến mức giới hạn cho phép, thôi mai bạn quay lại nhé !"/>
+<n key="12018" value="Mỗi ngày bạn có thể vào bất chu sơn nhiều nhất là 6 lần cưng ạ!"/>
+
+<n key="13016" value="Thành chủ tôn kính, tại vì bạn quá ham mê tửu sắc nên lỡ mất thời gian nhận thưởng! "/>
+<n key="13017" value="Hoan nghênh {0} {1} đăng nhập đắc kỷ, chúc bạn có những giây phút vui vẻ"/>
+<n key="13018" value="Thành chủ ở vào trạng thái trầm mê tửu sắc, vui lòng chú ý"/>
+<n key="13019" value="Trang bị hiên tại chỉ có bản thân thành chủ mới có thể trang bị!"/>
+<n key="13022" value="Thành công, đạt được kỹ năng 1 cấp {0} điểm tiềm năng {1}"/>
+<n key="13024" value="Bạn không cần sửa đổi"/>
+<n key="13025" value="Không phải trên giao diện thần tiên, không thể sử dụng chức năng này "/>
+<n key="13026" value="Chỉ có sau khi phong thần , thần tiên mới có thể sử dụng chức năng này"/>
+<n key="13028" value="Nhận thưởng đã đạt số lần cực hạn"/>
+<n key="13029" value="Không phải thành chủ không thể sử dụng {0}"/>
+<n key="13030" value="Chỉ có thần tiên thành chủ đã đắc đạo mới có thể sử dụng"/>
+<n key="13031" value="Thần tiên quân chủ không có căn cốt không đủ điều kiện, cần thêm căn cốt {0}"/>
+<n key="13032" value="Quan chức không đủ điều kiện, cần tăng thêm quan chức"/>
+<n key="13034" value="Thần tiên phong thần 100 cấp, căn cốt 50, nhân vật phải đạt thái bốc mới có thể tiếp tục luyện tiên"/>
+<n key="13035" value="Cần phải có thần tiên đã phong thần đạt cấp 110, người chơi phải đạt thái phó mới có thể tiếp tục luyện tiên"/>
+
+</language>
