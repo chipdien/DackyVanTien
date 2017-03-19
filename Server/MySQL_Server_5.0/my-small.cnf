@@ -1,0 +1,18 @@
+[client]
+port=3306
+basedir = "/usr/local/mysql/"
+datadir = "/usr/local/mysql/data/"
+tmpdir = "/tmp"
+max_connections=800
+query_cache_size=74M
+table_cache=1520
+tmp_table_size=26M
+thread_cache_size=38
+myisam_max_sort_file_size=100G
+myisam_max_extra_sort_file_size=100G
+myisam_sort_buffer_size=26M
+key_buffer_size=12M
+read_buffer_size=64K
+read_rnd_buffer_size=256K
+sort_buffer_size=256K
+skip-innodb
